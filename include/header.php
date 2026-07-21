@@ -7,7 +7,7 @@
 					<span class="item">
 						<i class="fas fa-map-marker-alt"></i>
 						<a href="tel:+919818439612" class="text-white">+91-9818439612</a> /
-						<a href="tel:+918860027997" class="text-white">+91-8860027997</a>
+						<a href="tel:+918860027997" class="text-white d-xxl-block d-none">+91-8860027997</a>
 					</span>
 
 					<span class="item style__right">
@@ -52,45 +52,45 @@
 						<li><a href="index.php">Home</a></li>
 						<li><a href="about.php">About Us</a></li>
 						<li class="dropdown">
-							<a href="#">Services</a>
+							<a href="#">Products</a>
 							<ul class="mega-sub-menu">
 								<li class="mega-menu">
 									<div class="mega-site-menu">
 
 										<!-- Column 1 -->
 										<ul class="mega-munu-bx">
-											<li><a href="desktops-laptops-thin-clients.html">Desktops, Laptops & Thin
+											<li><a href="desktops-laptops-thin-clients.php">Desktops, Laptops & Thin
 													Clients</a></li>
-											<li><a href="mesh-networking.html">Wired & Wireless Mesh Networking</a></li>
-											<li><a href="cctv-cameras.html">Analog, IP & Wireless Cameras</a></li>
-											<li><a href="video-conferencing.html">Video Conferencing Solutions</a></li>
-											<li><a href="interactive-led-displays.html">Interactive Displays & LED
+											<li><a href="mesh-networking.php">Wired & Wireless Mesh Networking</a></li>
+											<li><a href="cctv-cameras.php">Analog, IP & Wireless Cameras</a></li>
+											<li><a href="video-conferencing.php">Video Conferencing Solutions</a></li>
+											<li><a href="interactive-led-displays.php">Interactive Displays & LED
 													Walls</a></li>
-											<li><a href="attendance-access-control.html">Attendance & Access Control
+											<li><a href="attendance-access-control.php">Attendance & Access Control
 													Systems</a></li>
 										</ul>
 
 										<!-- Column 2 -->
 										<ul class="mega-munu-bx">
-											<li><a href="fire-alarm-system.html">Fire Alarm & Intrusion Systems</a></li>
-											<li><a href="video-door-phones.html">Video Door Phone Systems</a></li>
-											<li><a href="mobile-signal-boosters.html">Mobile Signal Boosters</a></li>
-											<li><a href="projectors.html">Short & Long Throw Projectors</a></li>
-											<li><a href="home-automation.html">Home Automation Solutions</a></li>
-											<li><a href="digital-signage.html">Digital Signage & Outdoor LED
+											<li><a href="fire-alarm-system.php">Fire Alarm & Intrusion Systems</a></li>
+											<li><a href="video-door-phones.php">Video Door Phone Systems</a></li>
+											<li><a href="mobile-signal-boosters.php">Mobile Signal Boosters</a></li>
+											<li><a href="projectors.php">Short & Long Throw Projectors</a></li>
+											<li><a href="home-automation.php">Home Automation Solutions</a></li>
+											<li><a href="digital-signage.php">Digital Signage & Outdoor LED
 													Displays</a></li>
 										</ul>
 
 										<!-- Column 3 -->
 										<ul class="mega-munu-bx">
-											<li><a href="epabx-intercom.html">EPABX & Intercom Systems</a></li>
-											<li><a href="smart-door-locks.html">Smart Door & Wardrobe Locks</a></li>
-											<li><a href="audio-pa-system.html">Audio & Public Address Systems</a></li>
-											<li><a href="electronic-wardrobe-locks.html">Electronic Wardrobe Locks</a>
+											<li><a href="epabx-intercom.php">EPABX & Intercom Systems</a></li>
+											<li><a href="smart-door-locks.php">Smart Door & Wardrobe Locks</a></li>
+											<li><a href="audio-pa-system.php">Audio & Public Address Systems</a></li>
+											<li><a href="electronic-wardrobe-locks.php">Electronic Wardrobe Locks</a>
 											</li>
-											<li><a href="metal-detectors.html">Handheld & Door Frame Metal Detectors</a>
+											<li><a href="metal-detectors.php">Handheld & Door Frame Metal Detectors</a>
 											</li>
-											<li><a href="boom-barriers-turnstiles.html">Boom Barriers & Turnstiles</a>
+											<li><a href="boom-barriers-turnstiles.php">Boom Barriers & Turnstiles</a>
 											</li>
 										</ul>
 
@@ -98,7 +98,7 @@
 								</li>
 							</ul>
 						</li>
-						<li><a href="industries.php">Industries</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
 						<li><a href="blog.php">Blog</a></li>
 						<li><a href="contact.php">Contact Us</a></li>
 					</ul>
@@ -182,14 +182,11 @@
 	<div class="sticky-header">
 		<div class="auto-container">
 			<div class="inner-container">
-				<!--Logo-->
 				<div class="logo">
 					<a href="/"><img src="assets/images/logo/logo.png" alt="Logo"></a>
 				</div>
 
-				<!--Right Col-->
 				<div class="nav-outer">
-					<!-- Main Menu -->
 					<nav class="main-menu">
 						<div class="navbar-collapse show collapse clearfix">
 							<ul class="navigation clearfix">
@@ -198,7 +195,6 @@
 						</div>
 					</nav>
 
-					<!--Mobile Navigation Toggler-->
 					<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
 				</div>
 			</div>
@@ -211,7 +207,7 @@
 <!-- Sidebar area start here -->
 <div class="sidebar-area offcanvas offcanvas-end" id="menubar">
 	<div class="offcanvas-header">
-		<a href="index.html" class="logo"> <img src="assets/images/logo-white.png" alt="logo"></a>
+		<a href="index.php" class="logo"> <img src="assets/images/logo-white.png" alt="logo"></a>
 		<button type="button" class="btn-close" data-bs-dismiss="offcanvas"><i class="fa-regular fa-xmark"></i></button>
 	</div>
 	<div class="offcanvas-body sidebar__body">
@@ -234,8 +230,8 @@
 			</ul>
 		</div>
 		<div class="sidebar__btns my-4">
-			<a href="contact.html">Sign Up</a>
-			<a class="sign-in" href="contact.html">Sign In</a>
+			<a href="contact.php">Sign Up</a>
+			<a class="sign-in" href="contact.php">Sign In</a>
 		</div>
 		<div class="sidebar__socials">
 			<ul>

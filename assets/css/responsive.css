@@ -99,7 +99,7 @@
 	.main-header .header-lower .logo-box {
 		min-width: 230px;
 		margin-right: 20px;
-		padding: 24px 0 24px 20px;
+		padding: 0px 0 0px 20px;
 	}
 
 	.main-header .header-lower .outer-box {
@@ -239,6 +239,22 @@
 
 
 
+}
+
+@media only screen and (max-width: 1399px) {
+	.about-section-home2 .about-item-box .single-about-box .about-desc p {
+		font-size: 15px;
+	}
+
+	.about-section-home2 .about-item-box .single-about-box .about-wrap .about-icon {
+		display: inline-block;
+		width: 65px;
+		height: 65px;
+		line-height: 65px;
+	}
+	.about-section-home2 .about-item-box .single-about-box .about-wrap {
+    width: 100%;
+}
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1416,6 +1432,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+	    .about-section-home2 .about-item-box .single-about-box .about-wrap {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
 	.main-header .main-menu {
 		display: none;
 	}

@@ -1,8 +1,9 @@
 <?php
 ob_start();
+include('include/data.php');
 ?>
 
-<!-- Banner Section home3 classic-->
+<!-- Banner Section-->
 <div class="swiper banner-classic-active2">
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
@@ -30,8 +31,7 @@ ob_start();
 		</button>
 	</div>
 </div>
-<!--Banner Section home3 classic -->
-
+<!--Banner Section -->
 
 <!--About Section Start-->
 <section class="about-section-home2 inner py-120">
@@ -249,23 +249,22 @@ ob_start();
 </section>
 <!--Features Section End-->
 
-
-
-
-<!-- Donations section home3 classic -->
+<!-- Services section -->
 <div class="donations-section-home3-classic">
 	<div class="auto-container">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="sec-title text-center">
 					<div class="section-sub-title">
-						<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png"
-								alt="sub-icon">Donations
+						<h1 class="sub-title">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="">
+							Our Solutions
 						</h1>
 					</div>
+
 					<div class="section-title">
-						<h1 class="title text-anime-3">Check Our Wide Variety of</h1>
-						<h1 class="title text-anime-3">Logistics Services</h1>
+						<h1 class="title text-anime-3">Explore Our Security</h1>
+						<h1 class="title text-anime-3">& Automation Solutions</h1>
 					</div>
 				</div>
 			</div>
@@ -276,96 +275,34 @@ ob_start();
 			<div class="row">
 				<div class="swiper project-classic-active">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box-item">
-									<div class="project-thumb">
-										<figure class="reveal"><img
-												src="assets/images/main-home-classic/project-thumb1.png"
-												alt="project-thumb"></figure>
-										<div class="project-content">
-											<h2>ECOLOGY</h2>
-											<h3><a href="project-details.html">E-Commerce Platform</a></h3>
+						<?php foreach ($services as $service): ?>
+							<div class="swiper-slide">
+								<div class="col-xl-12">
+									<div class="project-box-item">
+										<div class="project-thumb">
+
+											<figure class="reveal">
+												<img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>">
+											</figure>
+
+											<div class="project-content">
+												<h2>Tech Next System</h2>
+
+												<h3>
+													<a href="<?= $service['link']; ?>">
+														<?= $service['title']; ?>
+													</a>
+												</h3>
+
+											</div>
+
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box-item">
-									<div class="project-thumb">
-										<figure class="reveal"><img
-												src="assets/images/main-home-classic/project-thumb2.png"
-												alt="project-thumb"></figure>
-										<div class="project-content">
-											<h2>ECOLOGY</h2>
-											<h3><a href="project-details.html">E-Commerce Platform</a></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box-item">
-									<div class="project-thumb">
-										<figure class="reveal"><img
-												src="assets/images/main-home-classic/project-thumb3.png"
-												alt="project-thumb"></figure>
-										<div class="project-content">
-											<h2>ECOLOGY</h2>
-											<h3><a href="project-details.html">E-Commerce Platform</a></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box-item">
-									<div class="project-thumb">
-										<figure class="reveal"><img
-												src="assets/images/main-home-classic/project-thumb4.png"
-												alt="project-thumb"></figure>
-										<div class="project-content">
-											<h2>ECOLOGY</h2>
-											<h3><a href="project-details.html">E-Commerce Platform</a></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box-item">
-									<div class="project-thumb">
-										<figure class="reveal"><img
-												src="assets/images/main-home-classic/project-thumb5.png"
-												alt="project-thumb"></figure>
-										<div class="project-content">
-											<h2>ECOLOGY</h2>
-											<h3><a href="project-details.html">E-Commerce Platform</a></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box-item">
-									<div class="project-thumb">
-										<figure class="reveal"><img
-												src="assets/images/main-home-classic/project-thumb3.png"
-												alt="project-thumb"></figure>
-										<div class="project-content">
-											<h2>ECOLOGY</h2>
-											<h3><a href="project-details.html">E-Commerce Platform</a></h3>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+
+						<?php endforeach; ?>
+
 					</div>
 				</div>
 			</div>
@@ -373,47 +310,46 @@ ob_start();
 
 	</div>
 </div>
-<!-- Donations section home3 classic-->
+<!-- Services section-->
 
-
-
-<!-- mission vission section home3 classic-->
+<!-- mission vission section -->
 <section class="mission-vission-section-home3-classic">
 	<div class="auto-container">
 		<div class="row">
 			<div class="col-xl-6 col-lg-12">
 				<div class="sec-title">
 					<div class="section-sub-title">
-						<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png"
-								alt="sub-icon">Mission &
-							Vision</h1>
+						<h1 class="sub-title text-white border-white"><img
+								src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">Why
+							Choose Us</h1>
 					</div>
 					<div class="section-title">
-						<h1 class="title title-anim text-white">Empowring Busineses with</h1>
-						<h1 class="title title-anim text-white">Smart IT Solutions</h1>
+						<h1 class="title title-anim text-white">Your Trusted Partner in</h1>
+						<h1 class="title title-anim text-white">Security & Smart Automation</h1>
 					</div>
 				</div>
 				<div class="tab">
 					<ul class="tabs">
-						<li><a href="#">Our Mission</a></li>
-						<li><a href="#">Our Vision</a></li>
-						<li><a href="#">Our History</a></li>
+						<li><a href="#">Why Us</a></li>
+						<li><a href="#">Our Strength</a></li>
+						<li><a href="#">Our Commitment</a></li>
 					</ul>
 					<div class="tab_content">
 						<div class="tabs_item">
 							<div class="mision-vission-desc">
-								<p>technet is a nonprofit IT Consulting organizations maintaince and make
-									dedicated to protecting planet through sustainable and renewable target
-									community empowerment moderator.</p>
+								<p>Tech Next System delivers complete Security, Surveillance, Access Control and
+									Automation solutions tailored to homes, businesses and industries. We combine
+									premium products, expert installation and dependable support to ensure maximum
+									safety and performance.</p>
 							</div>
 						</div>
 
 						<!--tabs_item -->
 						<div class="tabs_item">
 							<div class="mision-vission-desc">
-								<p>technet is a nonprofit IT Consulting organizations maintaince and make
-									dedicated to protecting planet through sustainable and renewable target
-									community empowerment moderator.
+								<p>From CCTV surveillance and biometric access control to smart automation and
+									networking, we provide end-to-end technology solutions backed by experienced
+									professionals and trusted brands.
 								</p>
 							</div>
 						</div>
@@ -421,9 +357,8 @@ ob_start();
 						<!--tabs_item -->
 						<div class="tabs_item">
 							<div class="mision-vission-desc">
-								<p>technet is a nonprofit IT Consulting organizations maintaince and make
-									dedicated to protecting planet through sustainable and renewable target
-									community empowerment moderator.
+								<p>We are committed to delivering reliable products, transparent service and long-term
+									customer satisfaction through innovative, future-ready security solutions.or.
 								</p>
 							</div>
 						</div>
@@ -431,39 +366,50 @@ ob_start();
 				</div>
 				<div class="mission-vission-list">
 					<ul>
-						<li><span><svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+						<li>
+							<span>
+								<svg width="16" height="14" viewBox="0 0 16 14" fill="none"
 									xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M7.38397 13.1797C7.34153 13.1797 7.29954 13.171 7.26066 13.1539C7.22178 13.1369 7.18683 13.1121 7.15803 13.0809L1.06612 6.49119C1.02551 6.44726 0.99859 6.39244 0.988651 6.33344C0.978712 6.27445 0.986187 6.21384 1.01016 6.15902C1.03414 6.10421 1.07357 6.05758 1.12364 6.02483C1.17371 5.99208 1.23223 5.97464 1.29206 5.97464H4.22437C4.26839 5.97464 4.31191 5.98409 4.35197 6.00234C4.39204 6.0206 4.42772 6.04723 4.45661 6.08045L6.49255 8.42273C6.71258 7.95239 7.13852 7.16925 7.88597 6.21497C8.99095 4.8042 11.0463 2.7294 14.5627 0.85642C14.6307 0.820227 14.7097 0.810833 14.7843 0.830094C14.8588 0.849355 14.9235 0.895871 14.9654 0.960456C15.0073 1.02504 15.0235 1.103 15.0108 1.17894C14.998 1.25488 14.9573 1.32328 14.8966 1.37064C14.8831 1.38113 13.5273 2.44882 11.967 4.40448C10.5309 6.20417 8.62191 9.14694 7.68255 12.946C7.66605 13.0128 7.62767 13.0721 7.57354 13.1144C7.5194 13.1568 7.45263 13.1799 7.38387 13.1799L7.38397 13.1797Z"
 										fill="white" />
-								</svg></span>Helping Rural areas kids and Humans</li>
-						<li><span class="two"><svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+								</svg>
+							</span>
+							Certified Installation & Professional Support
+						</li>
+
+						<li>
+							<span class="two">
+								<svg width="16" height="14" viewBox="0 0 16 14" fill="none"
 									xmlns="http://www.w3.org/2000/svg">
 									<path
 										d="M7.38397 13.1797C7.34153 13.1797 7.29954 13.171 7.26066 13.1539C7.22178 13.1369 7.18683 13.1121 7.15803 13.0809L1.06612 6.49119C1.02551 6.44726 0.99859 6.39244 0.988651 6.33344C0.978712 6.27445 0.986187 6.21384 1.01016 6.15902C1.03414 6.10421 1.07357 6.05758 1.12364 6.02483C1.17371 5.99208 1.23223 5.97464 1.29206 5.97464H4.22437C4.26839 5.97464 4.31191 5.98409 4.35197 6.00234C4.39204 6.0206 4.42772 6.04723 4.45661 6.08045L6.49255 8.42273C6.71258 7.95239 7.13852 7.16925 7.88597 6.21497C8.99095 4.8042 11.0463 2.7294 14.5627 0.85642C14.6307 0.820227 14.7097 0.810833 14.7843 0.830094C14.8588 0.849355 14.9235 0.895871 14.9654 0.960456C15.0073 1.02504 15.0235 1.103 15.0108 1.17894C14.998 1.25488 14.9573 1.32328 14.8966 1.37064C14.8831 1.38113 13.5273 2.44882 11.967 4.40448C10.5309 6.20417 8.62191 9.14694 7.68255 12.946C7.66605 13.0128 7.62767 13.0721 7.57354 13.1144C7.5194 13.1568 7.45263 13.1799 7.38387 13.1799L7.38397 13.1797Z"
 										fill="white" />
-								</svg></span>Combating Hunger with Nutritious Foods Support</li>
+								</svg>
+							</span>
+							Premium Security Solutions with 24×7 Technical Assistance
+						</li>
 					</ul>
 				</div>
 				<div class="circle-progress-box">
 					<!-- circle-progress -->
 					<div class="circle-progress">
 						<div class="circle-outer">
-							<input type="text" class="dial" data-fgColor="#2E58FF" data-bgColor="#09214A"
+							<input type="text" class="dial" data-fgColor="#98ba4f" data-bgColor="#09214A"
 								data-width="70" data-height="70" data-linecap="normal" value="80">
 							<div class="count-box"><span class="count-text" data-stop="80" data-speed="2000"></span>%
 							</div>
-							<h2 class="title">Businesses Digitally<br>Transformed</h2>
+							<h2 class="title">1000+<br>Projects Completed</h2>
 						</div>
 					</div>
 					<!-- circle-progress -->
 					<div class="circle-progress">
 						<div class="circle-outer">
-							<input type="text" class="dial" data-fgColor="#2E58FF" data-bgColor="09214A" data-width="70"
+							<input type="text" class="dial" data-fgColor="#98ba4f" data-bgColor="09214A" data-width="70"
 								data-height="70" data-linecap="normal" value="70">
 							<div class="count-box"><span class="count-text" data-stop="70" data-speed="2000"></span>%
 							</div>
-							<h2 class="title">10k+ Happy Global<br>Clients</h2>
+							<h2 class="title">500k+ <br>Projects Completed</h2>
 						</div>
 					</div>
 				</div>
@@ -471,13 +417,13 @@ ob_start();
 			<div class="col-xl-6 col-lg-12">
 				<div class="mission-vission-thumb-wrapper">
 					<div class="mission-vission-thumb1">
-						<figure class="reveal"><img src="assets/images/home3/mission-thumb1.png" alt="thumb1"></figure>
+						<figure class="reveal"><img src="assets/images/about/wc-2.png" alt="thumb1"></figure>
 					</div>
 					<div class="mission-vission-thumb2">
-						<figure class="reveal"><img src="assets/images/home3/mission-thumb2.png" alt="thumb2"></figure>
+						<figure class="reveal"><img src="assets/images/about/wc-1.png" alt="thumb2"></figure>
 					</div>
 					<div class="mission-vission-thumb3">
-						<figure class="reveal"><img src="assets/images/home3/mission-thumb3.png" alt="thumb3"></figure>
+						<figure class="reveal"><img src="assets/images/about/wc-3.png" alt="thumb3"></figure>
 					</div>
 					<div class="mission-dot-shape">
 						<img src="assets/images/home3/mission-dot.png" alt="dot">
@@ -487,11 +433,10 @@ ob_start();
 		</div>
 	</div>
 </section>
-<!-- mission vission section home3 classic-->
+<!-- mission vission section-->
 
-
-<!--donate love section home3-->
-<div class="donate-love-section-home3 b-none">
+<!--donate love section-->
+<!-- <div class="donate-love-section-home3 b-none">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -518,195 +463,203 @@ ob_start();
 			</div>
 		</div>
 	</div>
-</div>
-<!-- mission vission section home3-->
+</div> -->
+<!-- mission vission section-->
 
-
-
-<!-- project section home3 -->
-<section class="project-section-home3">
+<!-- work process section -->
+<section class="work-process-section-classic">
 	<div class="auto-container">
-		<div class="row align-items-center">
+		<div class="row">
 			<div class="col-lg-12">
 				<div class="sec-title text-center">
-					<div class="section-sub-title">
-						<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">Our
-							Works</h1>
-					</div>
-					<div class="section-title">
-						<h1 class="title title-anim">Building Smarter Solutions </h1>
-						<h1 class="title title-anim">for Driven Success</h1>
+					<div class="sec-title text-center">
+						<div class="section-sub-title">
+							<h1 class="sub-title">
+								<img src="assets/images/main-home/sub-title-icon.png" alt="">
+								Our Process
+							</h1>
+						</div>
+
+						<div class="section-title">
+							<h1 class="title text-anime-3">Our Simple & Effective</h1>
+							<h1 class="title text-anime-3">Security Implementation Process</h1>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="swiper project-home2-active">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="col-xl-12">
-							<div class="project-box">
-								<div class="project-thumb">
-									<figure class="reveal"><img src="assets/images/home3/project-thumb1.png"
-											alt="project-thumb"></figure>
-								</div>
-								<div class="project-content">
-									<div class="project-title">
-										<h2>WEB DEVELOPMENT</h2>
-										<h3><a href="project-details.html">Smart Business Website</a></h3>
-									</div>
-									<div class="project-btn">
-										<a href="project-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="working-process-box first before-transprent after-transprent fade-in">
+					<div class="process-icon">
+						<img src="assets/images/process/1.png" alt="">
 					</div>
-					<div class="swiper-slide">
-						<div class="col-xl-12">
-							<div class="project-box">
-								<div class="project-thumb">
-									<figure class="reveal"><img src="assets/images/home3/project-thumb2.png"
-											alt="project-thumb"></figure>
-								</div>
-								<div class="project-content">
-									<div class="project-title">
-										<h2>CLOUD SOLUTIONS</h2>
-										<h3><a href="project-details.html">Cloud-Based Data System</a></h3>
-									</div>
-									<div class="project-btn">
-										<a href="project-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="process-content">
+						<h2>Site Assessment</h2>
+						<p>
+							We understand your security requirements and perform a detailed site survey to recommend the
+							most suitable solution.
+						</p>
 					</div>
-					<div class="swiper-slide">
-						<div class="col-xl-12">
-							<div class="project-box">
-								<div class="project-thumb">
-									<figure class="reveal"><img src="assets/images/home3/project-thumb3.png"
-											alt="project-thumb"></figure>
-								</div>
-								<div class="project-content">
-									<div class="project-title">
-										<h2>NETWORK SECURITY</h2>
-										<h3><a href="project-details.html">Secure Network Integration</a></h3>
-									</div>
-									<div class="project-btn">
-										<a href="project-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="working-process-box after-transprent fade-in">
+					<div class="process-icon">
+						<img src="assets/images/process/2.png" alt="">
 					</div>
-					<div class="swiper-slide">
-						<div class="col-xl-12">
-							<div class="project-box">
-								<div class="project-thumb">
-									<figure class="reveal"><img src="assets/images/home3/project-thumb2.png"
-											alt="project-thumb"></figure>
-								</div>
-								<div class="project-content">
-									<div class="project-title">
-										<h2>WEB DEVELOPMENT</h2>
-										<h3><a href="project-details.html">Cloud-Based Data System</a></h3>
-									</div>
-									<div class="project-btn">
-										<a href="project-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="process-content">
+						<h2>Solution Design</h2>
+						<p>
+							Our experts design a customized security system using CCTV, Access Control, Networking and
+							Automation technologies.
+						</p>
 					</div>
-					<div class="swiper-slide">
-						<div class="col-xl-12">
-							<div class="project-box">
-								<div class="project-thumb">
-									<figure class="reveal"><img src="assets/images/home3/project-thumb1.png"
-											alt="project-thumb"></figure>
-								</div>
-								<div class="project-content">
-									<div class="project-title">
-										<h2>NETWORK SECURITY</h2>
-										<h3><a href="project-details.html">Emergency Aid for Flood</a></h3>
-									</div>
-									<div class="project-btn">
-										<a href="project-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="working-process-box first before-transprent fade-in">
+					<div class="process-icon">
+						<img src="assets/images/process/3.png" alt="">
 					</div>
-					<div class="swiper-slide">
-						<div class="col-xl-12">
-							<div class="project-box">
-								<div class="project-thumb">
-									<figure class="reveal"><img src="assets/images/home3/project-thumb2.png"
-											alt="project-thumb"></figure>
-								</div>
-								<div class="project-content">
-									<div class="project-title">
-										<h2>WEB DEVELOPMENT</h2>
-										<h3><a href="project-details.html">Secure Network Integration</a></h3>
-									</div>
-									<div class="project-btn">
-										<a href="project-details.html"><i class="fa-solid fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
+					<div class="process-content">
+						<h2>Installation & Testing</h2>
+						<p>
+							Certified engineers install, configure and thoroughly test every system to ensure reliable
+							performance.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="working-process-box before-transprent fade-in">
+					<div class="process-icon">
+						<img src="assets/images/process/4.png" alt="">
+					</div>
+					<div class="process-content">
+						<h2>Technical Support</h2>
+						<p>
+							We provide ongoing technical support, preventive maintenance and system upgrades for
+							long-term reliability.
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- project section home3 -->
+<!-- work process section -->
 
-
-
-<!-- marquee section home3 -->
+<!-- marquee section -->
 <div class="marquee-section-home3 classic">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="marquee">
+
 					<div class="marquee-block">
-						<h3><span><img src="assets/images/main-home/marque-icon.png" alt="icon"></span>GLOBAL SHIPPING
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon2.png" alt="icon"></span>CARGO SERVICES
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon3.png" alt="icon"></span>FAST DELIVERY
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon4.png" alt="icon"></span>SUPPLY CHAIN
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon5.png" alt="icon"></span>WAREHOUSING
-						</h3>
+
+						<h3><span><i class="fa-solid fa-video"></i></span>CCTV SURVEILLANCE</h3>
+
+						<h3><span><i class="fa-solid fa-id-card"></i></span>ACCESS CONTROL</h3>
+
+						<h3><span><i class="fa-solid fa-network-wired"></i></span>NETWORKING SOLUTIONS</h3>
+
+						<h3><span><i class="fa-solid fa-fire-flame-curved"></i></span>FIRE ALARM SYSTEMS</h3>
+
+						<h3><span><i class="fa-solid fa-house-signal"></i></span>HOME AUTOMATION</h3>
+
 					</div>
+
 					<div class="marquee-block">
-						<h3><span><img src="assets/images/main-home/marque-icon.png" alt="icon"></span>GLOBAL SHIPPING
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon2.png" alt="icon"></span>CARGO SERVICES
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon3.png" alt="icon"></span>FAST DELIVERY
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon4.png" alt="icon"></span>SUPPLY CHAIN
-						</h3>
-						<h3><span><img src="assets/images/main-home/marque-icon5.png" alt="icon"></span>WAREHOUSING
-						</h3>
+
+						<h3><span><i class="fa-solid fa-video"></i></span>CCTV SURVEILLANCE</h3>
+
+						<h3><span><i class="fa-solid fa-id-card"></i></span>ACCESS CONTROL</h3>
+
+						<h3><span><i class="fa-solid fa-network-wired"></i></span>NETWORKING SOLUTIONS</h3>
+
+						<h3><span><i class="fa-solid fa-fire-flame-curved"></i></span>FIRE ALARM SYSTEMS</h3>
+
+						<h3><span><i class="fa-solid fa-house-signal"></i></span>HOME AUTOMATION</h3>
+
 					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- marquee section home3 -->
+<!-- marquee section -->
 
+<!-- Industries section-->
+<section class="project-section-home2-classic">
+	<div class="auto-container">
+		<div class="row align-items-center">
+			<div class="col-lg-12 mx-auto">
+				<div class="sec-title text-center">
+					<div class="section-sub-title ">
+						<h1 class="sub-title">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="">
+							Industries We Serve
+						</h1>
+					</div>
 
+					<div class="section-title text-center">
+						<h1 class="title title-anim">Security Solutions Across</h1>
+						<h1 class="title title-anim">Multiple Industries</h1>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="col-lg-6">
+				<div class="technet-button">
+					<a href="industries.html">
+						View All Industries
+						<i class="fa-solid fa-arrow-right"></i>
+						<span></span>
+					</a>
+				</div>
+			</div> -->
+		</div>
+		<div class="row">
+			<div class="swiper project-home2-active">
+				<div class="swiper-wrapper">
+					<?php foreach ($industries as $industry): ?>
+						<div class="swiper-slide">
+							<div class="col-xl-12">
+								<div class="project-box">
+									<div class="project-thumb">
+										<figure class="reveal">
+											<img src="<?= $industry['image']; ?>" alt="<?= $industry['title']; ?>">
+										</figure>
+									</div>
+									<div class="project-content">
+										<div class="project-title">
+											<h3>
+												<a href="<?= $industry['link']; ?>">
+													<?= $industry['title']; ?>
+												</a>
+											</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<?php endforeach; ?>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="project-shape1">
+		<img src="assets/images/home2/project-arrow.png" alt="arrow">
+	</div>
+	<div class="project-shape2">
+		<img src="assets/images/home2/project-dot.png" alt="dot">
+	</div>
+</section>
+<!-- Industries section-->
 
-
-<!-- give donation section home3 classic-->
+<!-- Contact section-->
 <section class="give-daonation-section-home3-classic">
 	<div class="auto-container">
 		<div class="row align-items-center">
@@ -717,8 +670,8 @@ ob_start();
 							in Touch</h1>
 					</div>
 					<div class="section-title">
-						<h1 class="title title-anim text-white">Reach Out for Reliable IT</h1>
-						<h1 class="title title-anim text-white">Support & Services</h1>
+						<h1 class="title title-anim text-white">Let's Build a Safer & Smarter</h1>
+						<h1 class="title title-anim text-white"> Future Together</h1>
 					</div>
 				</div>
 			</div>
@@ -726,13 +679,13 @@ ob_start();
 		<div class="row g-0 donation-form-bg">
 			<div class="col-lg-5">
 				<div class="donation-form-thumb">
-					<figure class="reveal"><img src="assets/images/home3/home3-donation-form-img.png" alt="img">
+					<figure class="reveal"><img src="assets/images/about/cta-left.jpg" alt="img">
 					</figure>
 				</div>
 			</div>
 			<div class="col-lg-7">
 				<div class="donation-form">
-					<h2 class="form-title">Let’s Build Your Next Digital<br> Success Story</h2>
+					<h2 class="form-title">Let's Secure Your Business Together</h2>
 					<form action="https://formspree.io/f/myyleorq" method="POST">
 						<div class="row">
 							<div class="col-lg-6 col-md-6">
@@ -771,111 +724,143 @@ ob_start();
 		</div>
 	</div>
 </section>
-<!-- give donation section home3 classic -->
+<!-- Contact donation section -->
 
+<!-- FAQ Section -->
+<section class="faq-section-home3-classic about-section-home2">
+	<div class="auto-container ">
+		<div class="row about-item-box">
+			<div class="col-lg-4 col-md-5 about-info-box">
+				<div class="faq-left">
+					<div class="sec-title">
+						<div class="section-sub-title">
+							<h1 class="sub-title">
+								<img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">
+								Need Help?
+							</h1>
+						</div>
 
-<!-- team section home3 classic -->
-<div class="team-section-home3-classic">
-	<div class="auto-container">
-		<div class="row align-items-center">
-			<div class="col-lg-7">
-				<div class="sec-title">
-					<div class="section-sub-title">
-						<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">Team
-						</h1>
-					</div>
-					<div class="section-title">
-						<h1 class="title text-anime-3">Dedicated IT Experts You Can</h1>
-						<h1 class="title text-anime-3">Trust Meet the Team</h1>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-5">
-				<div class="technet-button">
-					<a href="team.html">Meet Our Team<i class="fa-solid fa-arrow-right"></i><span></span></a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<figure class="reveal"><img src="assets/images/home3-classic/team-thumb1.png" alt="thumb">
-						</figure>
-						<div class="team-content">
-							<h2 class="title" data-cursor-text="View"><a href="team-details.html">Jakulin
-									Farna</a></h2>
-							<h3 class="designation">UI Designer</h3>
-							<ul class="team-social">
-								<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-							</ul>
+						<div class="section-title">
+							<h1 class="title title-anim">Got Questions?</h1>
+							<h1 class="title title-anim">We've Got Answers.</h1>
+						</div>
+
+						<div class="section-desc">
+							<p class="title-anim">
+								Explore our frequently asked questions to learn more about our security,
+								surveillance, networking, and automation solutions.
+							</p>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<figure class="reveal"><img src="assets/images/home3-classic/team-thumb2.png" alt="thumb">
-						</figure>
-						<div class="team-content">
-							<h2 class="title" data-cursor-text="View"><a href="team-details.html">Jesmin
-									Jara</a></h2>
-							<h3 class="designation">Front-End Developer</h3>
-							<ul class="team-social">
-								<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-							</ul>
-						</div>
+					<div class="about-btn">
+						<a href="contact.php">
+							Contact Us <span style="visibility: hidden;">Us</span>
+							<i class="fa-solid fa-arrow-right"></i>
+						</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-team-box">
-					<div class="team-thumb">
-						<figure class="reveal"><img src="assets/images/home3-classic/team-thumb3.png" alt="thumb">
-						</figure>
-						<div class="team-content">
-							<h2 class="title" data-cursor-text="View"><a href="team-details.html">Sonia R.
-									Sara</a></h2>
-							<h3 class="designation">Web Developer</h3>
-							<ul class="team-social">
-								<li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-								<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-							</ul>
+
+			<!-- Right -->
+
+			<div class="col-lg-8 col-md-7">
+				<div class="accordion tech-faq" id="faq">
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+								What security solutions do you provide?
+							</button>
+						</h2>
+						<div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+							<div class="accordion-body">
+								We provide CCTV Surveillance, Access Control,
+								Fire Alarm Systems, Home Automation,
+								Networking, Video Door Phones,
+								EPABX Systems, LED Displays and more.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+								Do you provide installation services?
+							</button>
+						</h2>
+						<div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faq">
+							<div class="accordion-body">
+								Yes. Our certified engineers handle complete installation,
+								testing and commissioning.
+
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+								Do you offer AMC & Maintenance?
+							</button>
+						</h2>
+						<div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faq">
+							<div class="accordion-body">
+								Yes. We offer preventive maintenance,
+								Annual Maintenance Contracts and technical support.
+
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+								Which industries do you serve?
+							</button>
+						</h2>
+
+						<div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faq">
+							<div class="accordion-body">
+								Corporate Offices, Schools, Hospitals,
+								Hotels, Industries, Warehouses,
+								Retail Stores and Residential Projects.
+							</div>
+						</div>
+					</div>
+
+					<div class="accordion-item">
+						<h2 class="accordion-header">
+							<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+								How can I request a quotation?
+							</button>
+						</h2>
+						<div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faq">
+							<div class="accordion-body">
+								Simply contact us through phone,
+								email or the enquiry form and our team
+								will prepare a customized quotation.
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- team section home3 classic-->
+</section>
+<!-- FAQ Section -->
 
-
-
-
-<!-- testimonial section home3 classic-->
+<!-- testimonial section-->
 <section class="testimonial-section-home3-classic">
 	<div class="auto-container">
 		<div class="row align-items-center">
 			<div class="col-xl-12">
 				<div class="sec-title text-center">
 					<div class="section-sub-title">
-						<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png"
-								alt="sub-icon">Testimonial
+						<h1 class="sub-title">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">
+							Testimonials
 						</h1>
 					</div>
 					<div class="section-title">
-						<h1 class="title title-anim text-white">Real Clients Testimonial About</h1>
-						<h1 class="title title-anim text-white">technet Services</h1>
+						<h1 class="title title-anim text-white">What Our Clients Say About</h1>
+						<h1 class="title title-anim text-white">Tech Next System</h1>
 					</div>
 				</div>
 			</div>
@@ -883,245 +868,61 @@ ob_start();
 		<div class="row">
 			<div class="swiper testi-home3-classic-active">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="col-lg-12">
-							<div class="single-testi-box" data-cursor-text="View">
-								<div class="testi-autor-box">
-									<div class="testi-autor">
-										<img src="assets/images/home3-classic/testi-autor1.png" alt="autor">
+					<?php foreach ($testimonials as $item) { ?>
+						<div class="swiper-slide">
+							<div class="col-lg-12">
+								<div class="single-testi-box" data-cursor-text="View">
+									<div class="testi-autor-box">
+										<div class="testi-autor">
+											<img src="<?= $item['image']; ?>" alt="<?= $item['name']; ?>">
+										</div>
+										<div class="testi-autor-content">
+											<h2 class="autor-title"><?= $item['name']; ?></h2>
+											<p class="autor-desi"><?= $item['designation']; ?></p>
+										</div>
 									</div>
-									<div class="testi-autor-content">
-										<h2 class="autor-title">Jakulin Farna</h2>
-										<p class="autor-desi">UI Designer at — Dream IT</p>
+									<div class="testi-desc">
+										<p>"<?= $item['review']; ?>"</p>
 									</div>
-								</div>
-								<div class="testi-ratting">
-									<div class="testi-number">
-										<span>5.00</span>
-									</div>
-									<div class="ratting">
-										<ul>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-										</ul>
-									</div>
-								</div>
-								<div class="testi-desc">
-									<p>“ technet is a IT Consulting organization maintaince monetize
-										worldwide outside the box thinking for end-to-end outsourcing.
-										Conceptualize networks parallel</p>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="col-lg-12">
-							<div class="single-testi-box" data-cursor-text="View">
-								<div class="testi-autor-box">
-									<div class="testi-autor">
-										<img src="assets/images/home3-classic/testi-autor2.png" alt="autor">
-									</div>
-									<div class="testi-autor-content">
-										<h2 class="autor-title">John D. Alexon</h2>
-										<p class="autor-desi">UI Designer at — Dream IT</p>
-									</div>
-								</div>
-								<div class="testi-ratting">
-									<div class="testi-number">
-										<span>5.00</span>
-									</div>
-									<div class="ratting">
-										<ul>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-										</ul>
-									</div>
-								</div>
-								<div class="testi-desc">
-									<p>“ technet is a IT Consulting organization maintaince monetize
-										worldwide outside the box thinking for end-to-end outsourcing.
-										Conceptualize networks parallel</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="col-lg-12">
-							<div class="single-testi-box" data-cursor-text="View">
-								<div class="testi-autor-box">
-									<div class="testi-autor">
-										<img src="assets/images/home3-classic/testi-autor1.png" alt="autor">
-									</div>
-									<div class="testi-autor-content">
-										<h2 class="autor-title">Jakulin Farna</h2>
-										<p class="autor-desi">UI Designer at — Dream IT</p>
-									</div>
-								</div>
-								<div class="testi-ratting">
-									<div class="testi-number">
-										<span>5.00</span>
-									</div>
-									<div class="ratting">
-										<ul>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-										</ul>
-									</div>
-								</div>
-								<div class="testi-desc">
-									<p>“ technet is a IT Consulting organization maintaince monetize
-										worldwide outside the box thinking for end-to-end outsourcing.
-										Conceptualize networks parallel</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="col-lg-12">
-							<div class="single-testi-box" data-cursor-text="View">
-								<div class="testi-autor-box">
-									<div class="testi-autor">
-										<img src="assets/images/home3-classic/testi-autor2.png" alt="autor">
-									</div>
-									<div class="testi-autor-content">
-										<h2 class="autor-title">John D. Alexon</h2>
-										<p class="autor-desi">UI Designer at — Dream IT</p>
-									</div>
-								</div>
-								<div class="testi-ratting">
-									<div class="testi-number">
-										<span>5.00</span>
-									</div>
-									<div class="ratting">
-										<ul>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-										</ul>
-									</div>
-								</div>
-								<div class="testi-desc">
-									<p>“ technet is a IT Consulting organization maintaince monetize
-										worldwide outside the box thinking for end-to-end outsourcing.
-										Conceptualize networks parallel</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="col-lg-12">
-							<div class="single-testi-box" data-cursor-text="View">
-								<div class="testi-autor-box">
-									<div class="testi-autor">
-										<img src="assets/images/home3-classic/testi-autor1.png" alt="autor">
-									</div>
-									<div class="testi-autor-content">
-										<h2 class="autor-title">Jakulin Farna</h2>
-										<p class="autor-desi">UI Designer at — Dream IT</p>
-									</div>
-								</div>
-								<div class="testi-ratting">
-									<div class="testi-number">
-										<span>5.00</span>
-									</div>
-									<div class="ratting">
-										<ul>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-										</ul>
-									</div>
-								</div>
-								<div class="testi-desc">
-									<p>“ technet is a IT Consulting organization maintaince monetize
-										worldwide outside the box thinking for end-to-end outsourcing.
-										Conceptualize networks parallel</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="col-lg-12">
-							<div class="single-testi-box" data-cursor-text="View">
-								<div class="testi-autor-box">
-									<div class="testi-autor">
-										<img src="assets/images/home3-classic/testi-autor2.png" alt="autor">
-									</div>
-									<div class="testi-autor-content">
-										<h2 class="autor-title">John D. Alexon</h2>
-										<p class="autor-desi">UI Designer at — Dream IT</p>
-									</div>
-								</div>
-								<div class="testi-ratting">
-									<div class="testi-number">
-										<span>5.00</span>
-									</div>
-									<div class="ratting">
-										<ul>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-											<li><i class="fa-solid fa-star"></i></li>
-										</ul>
-									</div>
-								</div>
-								<div class="testi-desc">
-									<p>“ technet is a IT Consulting organization maintaince monetize
-										worldwide outside the box thinking for end-to-end outsourcing.
-										Conceptualize networks parallel</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					<?php } ?>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- testimonial section home3 classic-->
+<!-- testimonial section-->
 
-
-
-<!-- contact section home3 -->
+<!-- contact section -->
 <section class="contact-section-home3">
 	<div class="auto-container">
 		<div class="row contact-bg classic">
 			<div class="col-xl-12">
 				<div class="contact-form-box">
-					<!-- section title -->
 					<div class="sec-title">
 						<div class="section-sub-title">
-							<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png"
-									alt="sub-icon">Contact
-								Us</h1>
+							<h1 class="sub-title">
+								<img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">
+								Contact Us
+							</h1>
 						</div>
+
 						<div class="section-title">
-							<h1 class="title title-anim">Delivering Growth Through</h1>
-							<h1 class="title title-anim">Reliable IT Solutions </h1>
+							<h1 class="title title-anim">Let's Secure Your Business</h1>
+							<h1 class="title title-anim">With Smart Solutions</h1>
 						</div>
+
 						<div class="section-desc">
 							<p class="title-anim">
-								technet is a nonprofit IT Consulting organizations maintaince and
-								dedicated to protecting planet through
+								Connect with Tech Next System for CCTV Surveillance, Access Control,
+								Fire Alarm, Networking, and Automation solutions tailored to your needs.
 							</p>
 						</div>
 						<div class="contact-info-box">
 							<div class="contact-btn">
-								<a href="contact.html">Contact Us Now<i class="fa-solid fa-arrow-right"></i></a>
+								<a href="contact.php">Contact Us Now<i class="fa-solid fa-arrow-right"></i></a>
 							</div>
 							<div class="contact-call-info">
 								<div class="call-icon">
@@ -1129,7 +930,8 @@ ob_start();
 								</div>
 								<div class="call-content">
 									<h2 class="call-text">Call Us (Toll free)</h2>
-									<h3 class="call-number">+1-(456) 678 032</h3>
+									<h3 class="call-number"><a href="tel:+91-9818439612" target="_blank"
+											rel="noopener noreferrer">+91-9818439612</a></h3>
 								</div>
 							</div>
 						</div>
@@ -1139,24 +941,23 @@ ob_start();
 		</div>
 	</div>
 </section>
-<!-- contact section home3 -->
+<!-- contact section-->
 
-
-
-<!-- latest blog section home2 classic -->
+<!-- latest blog section -->
 <div class="latest-blog-section-home2-classic">
 	<div class="auto-container">
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="sec-title text-center">
 					<div class="section-sub-title">
-						<h1 class="sub-title"><img src="assets/images/main-home/sub-title-icon.png"
-								alt="sub-icon">Latest Blog
+						<h1 class="sub-title">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">Latest Blog
 						</h1>
 					</div>
+
 					<div class="section-title">
-						<h1 class="title title-anim">Insights and Updates from</h1>
-						<h1 class="title title-anim">Our IT Experts</h1>
+						<h1 class="title title-anim">Insights & Innovations from</h1>
+						<h1 class="title title-anim">Our Security Experts</h1>
 					</div>
 				</div>
 			</div>
@@ -1165,88 +966,153 @@ ob_start();
 			<div class="col-xl-4 col-lg-6">
 				<div class="single-blog-box">
 					<div class="blog-thumb reveal">
-						<img src="assets/images/home3-classic/blog-thumb1.png" alt="thumb">
+						<img src="assets/images/blog/blog-1.jpg" alt="thumb">
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
-							<a href="blog-details.html">26 May, 2026</a>
+							<a href="blog.html">26 May, 2026</a>
 						</div>
-						<h2 class="blog-title"><a href="blog-details.html" data-cursor-text="View">Latest Web
-								Development Trends <br> and Innovations for 2026</a></h2>
-						<div class="blog-autor">
-							<a href="blog-details.html">By - <span>John D. Alexon</span></a>
-						</div>
+						<h2 class="blog-title"><a href="blog.html" data-cursor-text="View">How Modern CCTV
+								Systems
+								Improve Business Security</a></h2>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6">
 				<div class="single-blog-box">
 					<div class="blog-thumb reveal">
-						<img src="assets/images/home3-classic/blog-thumb2.png" alt="thumb">
+						<img src="assets/images/blog/blog-2.jpg" alt="thumb">
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
-							<a href="blog-details.html">26 May, 2026</a>
+							<a href="blog.html">26 May, 2026</a>
 						</div>
-						<h2 class="blog-title"><a href="blog-details.html" data-cursor-text="View">Growing Power
-								of Cybersecurity <br> in Modern Businesses</a></h2>
-						<div class="blog-autor">
-							<a href="blog-details.html">By - <span>Anjelina Watson</span></a>
-						</div>
+						<h2 class="blog-title"><a href="blog.html" data-cursor-text="View">Access Control
+								Solutions
+								for Smarter Workplaces</a></h2>
 					</div>
 				</div>
 			</div>
 			<div class="col-xl-4 col-lg-6">
 				<div class="single-blog-box">
 					<div class="blog-thumb reveal">
-						<img src="assets/images/home3-classic/blog-thumb3.png" alt="thumb">
+						<img src="assets/images/blog/blog-3.jpg" alt="thumb">
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
-							<a href="blog-details.html">26 May, 2026</a>
+							<a href="blog.html">26 May, 2026</a>
 						</div>
-						<h2 class="blog-title"><a href="blog-details.html" data-cursor-text="View">The Critical
-								Importance of Strong <br> Data Protection Today</a></h2>
-						<div class="blog-autor">
-							<a href="blog-details.html">By - <span>John D. Alexon</span></a>
-						</div>
+						<h2 class="blog-title"><a href="blog.html" data-cursor-text="View">Fire Alarm Systems:
+								Protecting Lives & Assets</a></h2>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- latest blog section home2 classic -->
-
-
-
-<!--sign up section home3-->
-<div class="sign-up-section-home3">
+<!-- latest blog section -->
+<!--brand area one-->
+<div class="brand-area-one">
 	<div class="auto-container">
-		<div class="row align-items-center">
-			<div class="col-xl-6">
-				<div class="sign-up-title">
-					<h2 class="text-anime-3">Sign Up for—Update</h2>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="sec-title text-center">
+
+					<div class="section-sub-title">
+						<h1 class="sub-title">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="sub-icon">
+							Our Clients
+						</h1>
+					</div>
+
+					<div class="section-title">
+						<h1 class="title title-anim">Trusted by Leading Businesses</h1>
+					</div>
+
 				</div>
 			</div>
-			<div class="col-xl-6">
-				<div class="sign-up fade-in">
-					<form action="https://formspree.io/f/myyleorq" method="POST">
-						<div class="sign-up-form">
-							<div class="form-input-bx">
-								<input type="email" name="email" placeholder="Enter Your E-Mail" required="">
-								<span><i class="fa-regular fa-envelope"></i></span>
-								<button type="submit">Singup Now <i class="fa-solid fa-arrow-right-long"></i>
-								</button>
+		</div>
+		<div class="row">
+			<div class="swiper band-active">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client1.png" alt="client img">
+								</div>
 							</div>
 						</div>
-					</form>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client2.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client3.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client4.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client5.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client6.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client7.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="col-lg-12">
+							<div class="brand-box">
+								<div class="brand-thumb">
+									<img src="assets/images/client/client8.png" alt="client img">
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!--sign up section home3-->
+<!--brand area one-->
 
 <?php
 $content = ob_get_clean();
