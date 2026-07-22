@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Digital door locks provide an easy-to-install security solution for buildings requiring reliable access control where allocating keys or cards is impractical. Simple and reliable in operation compared to high-tech biometric options, digital locks can be fitted on wooden, metal, glass, aluminium, and external doors.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Electronic / Digital Smart Door Locks">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Digital door locks provide a reliable, easy-to-install security solution for buildings where allocating keys or cards to large numbers of people is impractical. With straightforward operation compared to high-tech biometric options, these locks are built to last for many years with minimal maintenance.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Secure, Convenient &amp; Keyless Access Control
                             </a>
 

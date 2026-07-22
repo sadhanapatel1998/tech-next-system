@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Tech Next Systems delivers Video Conferencing Solutions built around cameras, microphones, and speakers connected over high-speed internet, enabling real-time communication and collaboration between individuals in different locations. Our systems support remote work, meetings, and training sessions with integrated screen-sharing capabilities.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Video Conferencing Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Video conferencing enables live, face-to-face communication between people at different locations using cameras, microphones and speakers connected over the internet. It supports popular platforms such as Microsoft Teams, Zoom, Google Meet and Webex, offering features like screen sharing, chat, file sharing and recording.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Bring Your Teams Together, No Matter the Distance
                             </a>
 

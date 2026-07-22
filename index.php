@@ -275,28 +275,27 @@ include('include/data.php');
 			<div class="row">
 				<div class="swiper project-classic-active">
 					<div class="swiper-wrapper">
+
 						<?php foreach ($services as $service): ?>
+
 							<div class="swiper-slide">
-								<div class="col-xl-12">
-									<div class="project-box-item">
-										<div class="project-thumb">
+								<div class="project-box-item">
+									<div class="project-thumb">
 
-											<figure class="reveal">
-												<img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>">
-											</figure>
+										<figure class="reveal">
+											<img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>">
+										</figure>
 
-											<div class="project-content">
-												<h2>Tech Next System</h2>
+										<div class="project-content">
+											<h2>Tech Next System</h2>
 
-												<h3>
-													<a href="<?= $service['link']; ?>">
-														<?= $service['title']; ?>
-													</a>
-												</h3>
-
-											</div>
-
+											<h3>
+												<a href="<?= $service['link']; ?>">
+													<?= $service['title']; ?>
+												</a>
+											</h3>
 										</div>
+
 									</div>
 								</div>
 							</div>
@@ -305,6 +304,7 @@ include('include/data.php');
 
 					</div>
 				</div>
+				<div class="project-pagination"></div>
 			</div>
 		</div>
 
@@ -433,37 +433,6 @@ include('include/data.php');
 		</div>
 	</div>
 </section>
-<!-- mission vission section-->
-
-<!--donate love section-->
-<!-- <div class="donate-love-section-home3 b-none">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6">
-				<div class="donate-love-thumb reveal">
-					<img src="assets/images/home3/donation-love1.png" alt="thumb">
-					<div class="donation-video-icon">
-						<a href="https://www.youtube.com/shorts/SekA57AxJVE" class="popup-video"
-							data-cursor-text="Play"><i class="fa-classic fa-solid fa-play fa-fw"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="single-donate-love-box fade-in">
-					<div class="donate-love-content">
-						<h2>Empower Innovation</h2>
-						<h3>Partner With Us for</h3>
-						<h3>Reliable IT</h3>
-						<h3>Success</h3>
-						<div class="donate-love-btn">
-							<a href="contact.html">Join Us Today<i class="fa-solid fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> -->
 <!-- mission vission section-->
 
 <!-- work process section -->
@@ -611,42 +580,34 @@ include('include/data.php');
 					</div>
 				</div>
 			</div>
-			<!-- <div class="col-lg-6">
-				<div class="technet-button">
-					<a href="industries.html">
-						View All Industries
-						<i class="fa-solid fa-arrow-right"></i>
-						<span></span>
-					</a>
-				</div>
-			</div> -->
 		</div>
 		<div class="row">
 			<div class="swiper project-home2-active">
 				<div class="swiper-wrapper">
+
 					<?php foreach ($industries as $industry): ?>
 						<div class="swiper-slide">
-							<div class="col-xl-12">
-								<div class="project-box">
-									<div class="project-thumb">
-										<figure class="reveal">
-											<img src="<?= $industry['image']; ?>" alt="<?= $industry['title']; ?>">
-										</figure>
-									</div>
-									<div class="project-content">
-										<div class="project-title">
-											<h3>
-												<a href="<?= $industry['link']; ?>">
-													<?= $industry['title']; ?>
-												</a>
-											</h3>
-										</div>
+							<div class="project-box">
+								<div class="project-thumb">
+									<figure class="reveal">
+										<img src="<?= $industry['image']; ?>" alt="<?= $industry['title']; ?>">
+									</figure>
+								</div>
+
+								<div class="project-content">
+									<div class="project-title">
+										<h3>
+											<?= $industry['title']; ?>
+										</h3>
 									</div>
 								</div>
 							</div>
 						</div>
 					<?php endforeach; ?>
+
 				</div>
+				<!-- Pagination -->
+				<div class="industry-pagination"></div>
 			</div>
 		</div>
 	</div>
@@ -870,25 +831,25 @@ include('include/data.php');
 				<div class="swiper-wrapper">
 					<?php foreach ($testimonials as $item) { ?>
 						<div class="swiper-slide">
-							<div class="col-lg-12">
-								<div class="single-testi-box" data-cursor-text="View">
-									<div class="testi-autor-box">
-										<div class="testi-autor">
-											<img src="<?= $item['image']; ?>" alt="<?= $item['name']; ?>">
-										</div>
-										<div class="testi-autor-content">
-											<h2 class="autor-title"><?= $item['name']; ?></h2>
-											<p class="autor-desi"><?= $item['designation']; ?></p>
-										</div>
+							<div class="single-testi-box" data-cursor-text="View">
+								<div class="testi-autor-box">
+									<div class="testi-autor">
+										<img src="<?= $item['image']; ?>" alt="<?= $item['name']; ?>">
 									</div>
-									<div class="testi-desc">
-										<p>"<?= $item['review']; ?>"</p>
+									<div class="testi-autor-content">
+										<h2 class="autor-title"><?= $item['name']; ?></h2>
+										<p class="autor-desi"><?= $item['designation']; ?></p>
 									</div>
+								</div>
+								<div class="testi-desc">
+									<p>"<?= $item['review']; ?>"</p>
 								</div>
 							</div>
 						</div>
 					<?php } ?>
 				</div>
+				<!-- Pagination -->
+				<div class="testimonial-pagination"></div>
 			</div>
 		</div>
 	</div>
@@ -914,8 +875,8 @@ include('include/data.php');
 							<h1 class="title title-anim">With Smart Solutions</h1>
 						</div>
 
-						<div class="section-desc">
-							<p class="title-anim">
+						<div class="">
+							<p class="">
 								Connect with Tech Next System for CCTV Surveillance, Access Control,
 								Fire Alarm, Networking, and Automation solutions tailored to your needs.
 							</p>
@@ -930,8 +891,8 @@ include('include/data.php');
 								</div>
 								<div class="call-content">
 									<h2 class="call-text">Call Us (Toll free)</h2>
-									<h3 class="call-number"><a href="tel:+91-9818439612" target="_blank"
-											rel="noopener noreferrer">+91-9818439612</a></h3>
+									<h3 class="call-number"><a href="tel:+919818439612"
+											>+91-9818439612</a></h3>
 								</div>
 							</div>
 						</div>
@@ -970,9 +931,9 @@ include('include/data.php');
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
-							<a href="blog.html">26 May, 2026</a>
+							<a href="blog.php">26 May, 2026</a>
 						</div>
-						<h2 class="blog-title"><a href="blog.html" data-cursor-text="View">How Modern CCTV
+						<h2 class="blog-title"><a href="blog.php" data-cursor-text="View">How Modern CCTV
 								Systems
 								Improve Business Security</a></h2>
 					</div>
@@ -985,9 +946,9 @@ include('include/data.php');
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
-							<a href="blog.html">26 May, 2026</a>
+							<a href="blog.php">26 May, 2026</a>
 						</div>
-						<h2 class="blog-title"><a href="blog.html" data-cursor-text="View">Access Control
+						<h2 class="blog-title"><a href="blog.php" data-cursor-text="View">Access Control
 								Solutions
 								for Smarter Workplaces</a></h2>
 					</div>
@@ -1000,9 +961,9 @@ include('include/data.php');
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
-							<a href="blog.html">26 May, 2026</a>
+							<a href="blog.php">26 May, 2026</a>
 						</div>
-						<h2 class="blog-title"><a href="blog.html" data-cursor-text="View">Fire Alarm Systems:
+						<h2 class="blog-title"><a href="blog.php" data-cursor-text="View">Fire Alarm Systems:
 								Protecting Lives & Assets</a></h2>
 					</div>
 				</div>
@@ -1011,6 +972,7 @@ include('include/data.php');
 	</div>
 </div>
 <!-- latest blog section -->
+
 <!--brand area one-->
 <div class="brand-area-one">
 	<div class="auto-container">

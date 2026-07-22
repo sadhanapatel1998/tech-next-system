@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Tech Next Systems supplies and installs a wide range of Short and Long Throw Projectors from leading brands, designed to deliver bright, sharp, and reliable projection for classrooms, boardrooms, auditoriums, and event spaces of all sizes.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Short / Long Throw Projector Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Short throw projectors are designed for compact spaces, projecting large, bright images from a very close distance, while long throw projectors are ideal for larger auditoriums and halls requiring greater projection distance. Both options deliver sharp image quality suited to classrooms, boardrooms, and event spaces.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Bright, Clear Projection for Every Space &amp; Occasion
                             </a>
 

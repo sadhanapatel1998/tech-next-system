@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             An Interactive Display is a large, touch-enabled screen that functions like a giant tablet, allowing users to interact with digital content through touch, stylus, or gestures, widely used in classrooms and boardrooms for real-time collaboration. An LED Wall is composed of small modular LED panels forming a seamless, scalable video screen suitable for advertising, events, and virtual production.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Interactive Display Panels &amp; LED Wall Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Interactive Display Panels function like a giant tablet, enabling touch, stylus, and gesture-based interaction with annotation and wireless screen mirroring, making them ideal for classrooms and boardrooms. LED Walls combine modular LED panels into a seamless, scalable video screen suitable for both indoor and outdoor advertising, events, and virtual production.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Engage, Collaborate &amp; Impress with Smart Visual Technology
                             </a>
 

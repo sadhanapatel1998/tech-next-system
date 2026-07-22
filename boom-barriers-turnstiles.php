@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             A Boom Barrier is a pivoted bar or pole that blocks vehicular or pedestrian access through a controlled point, typically rising in a vertical arc and often counterweighted for easy operation. A Turnstile is a gate that allows one person to pass at a time, enforcing one-way traffic and restricting passage to authorized individuals through access control, tickets, or passes.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Automatic Boom Barrier &amp; Turnstile Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Boom Barriers use a pivoted bar to block vehicular or pedestrian access at controlled points, typically counterweighted for smooth, easy operation. Turnstiles allow only one authorized person to pass at a time, enforcing one-way traffic through access control, tickets, or passes.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Controlled, Secure Access for Vehicles &amp; Pedestrians
                             </a>
 

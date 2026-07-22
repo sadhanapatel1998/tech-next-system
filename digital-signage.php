@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Digital Signage is a technology-driven, dynamic form of communication using LCD, LED, or projector screens to display multimedia content like videos, images, and live data in public and private spaces. Managed remotely via software, it replaces static posters and enhances engagement in retail, corporate, and transit environments.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Digital Signage &amp; Outdoor LED Display Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Digital signage uses LCD, LED, or projector screens to display multimedia content such as videos, images, and live data, replacing static posters with dynamic, remotely managed communication. It enhances engagement across retail, corporate, and transit environments while allowing content to be updated instantly from anywhere.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Dynamic Visual Communication that Captures Attention
                             </a>
 

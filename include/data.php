@@ -4,52 +4,52 @@ $services = [
     [
         "title" => "Analogue, IP, Wireless Cameras",
         "image" => "assets/images/services/cctv-cameras.jpg",
-        "link" => "cctv-surveillance.html"
+        "link" => "cctv-cameras.php"
     ],
     [
         "title" => "Home Automation",
         "image" => "assets/images/services/home-automation.jpg",
-        "link" => "home-automation.html"
+        "link" => "home-automation.php"
     ],
     [
         "title" => "Desktops, Laptops & Thin Clients",
         "image" => "assets/images/services/desktops-laptops-thin-clients.jpg",
-        "link" => "desktops-laptops-thin-clients.html"
+        "link" => "desktops-laptops-thin-clients.php"
     ],
     [
         "title" => "Handheld, Door Frame Metal Detectors",
         "image" => "assets/images/services/metal-detectors.jpg",
-        "link" => "metal-detectors.html"
+        "link" => "metal-detectors.php"
     ],
     [
         "title" => "Digital, Smart Door & Wardrobe Locks",
         "image" => "assets/images/services/smart-door-locks.jpg",
-        "link" => "smart-door-locks.html"
+        "link" => "smart-door-locks.php"
     ],
     [
         "title" => "Intrusion, Fire Alarm System",
         "image" => "assets/images/services/fire-alarm-system.jpg",
-        "link" => "fire-alarm-system.html"
+        "link" => "fire-alarm-system.php"
     ],
     [
         "title" => "Wired / Wireless Mesh Networking",
         "image" => "assets/images/services/mesh-networking.jpg",
-        "link" => "mesh-networking.html"
+        "link" => "mesh-networking.php"
     ],
     [
         "title" => "Video Conferencing",
         "image" => "assets/images/services/video-conferencing.jpg",
-        "link" => "video-conferencing.html"
+        "link" => "video-conferencing.php"
     ],
     [
         "title" => "IP / Analogue Video Door Phone",
         "image" => "assets/images/services/video-door-phones.jpg",
-        "link" => "video-door-phones.html"
+        "link" => ".php"
     ],
     [
         "title" => "Electronic Wardrobe Locks",
         "image" => "assets/images/services/electronic-wardrobe-locks.jpg",
-        "link" => "electronic-wardrobe-locks.html"
+        "link" => "electronic-wardrobe-locks.php"
     ]
 ];
 
@@ -58,50 +58,42 @@ $industries = [
     [
         "title" => "Corporate Offices",
         "image" => "assets/images/industries/corporate-office.jpg",
-        "link" => "corporate-offices.html"
     ],
 
     [
         "title" => "Schools & Colleges",
         "image" => "assets/images/industries/schools-colleges.jpg",
-        "link" => "schools-colleges.html"
     ],
 
     [
         "title" => "Hospitals & Healthcare",
         "image" => "assets/images/industries/hospitals.jpg",
-        "link" => "hospitals-healthcare.html"
     ],
 
     [
         "title" => "Hotels & Hospitality",
         "image" => "assets/images/industries/hotels.jpg",
-        "link" => "hotels-hospitality.html"
     ],
 
     [
         "title" => "Retail Stores & Showrooms",
         "image" => "assets/images/industries/retail.jpg",
-        "link" => "retail-showrooms.html"
     ],
 
     [
         "title" => "Factories & Warehouses",
         "image" => "assets/images/industries/factories.jpg",
-        "link" => "factories-warehouses.html"
     ],
 
     [
         "title" => "Residential Societies",
         "image" => "assets/images/industries/residential.jpg",
-        "link" => "residential-societies.html"
     ],
 
     [
         "title" => "Government Institutions",
         "image" => "assets/images/industries/government.jpg",
-        "link" => "government-institutions.html"
-    ],
+    ]
 
 ];
 

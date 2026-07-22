@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             EPABX (Electronic Private Automatic Branch Exchange) is a private telephone network used by organizations for internal and external communication. IP Intercom Systems allow multiple locations to connect on a single system, enabling calls from any location including via smartphone or tablet, while Voice Logger Systems record audio from telephones and other sources for storage and review.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="IP / Analogue EPABX, Intercom &amp; Voice Logger Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 EPABX systems provide a private telephone network for internal and external organizational communication, while IP Intercom Systems connect multiple locations on a single system, enabling calls through smartphones or tablets from anywhere. Voice Logger Systems complement these by recording calls in either voice-activated or continuous mode for reliable record keeping.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Seamless Communication Across Every Location
                             </a>
 

@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Electronic Wardrobe Locks provide secure, keyless storage solutions for lockers, wardrobes, and cabinets in offices, gyms, hotels, and residential spaces. Compact and reliable, these locks eliminate the need for physical keys while offering durable, long-term performance.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Electronic / Digital Wardrobe Lock Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Electronic wardrobe locks offer a compact, keyless security solution for lockers, cabinets, and wardrobes, eliminating the need for physical keys and reducing the risk of lost access. Their straightforward, reliable operation ensures long-lasting performance with minimal maintenance.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Compact, Secure &amp; Keyless Storage Solutions
                             </a>
 

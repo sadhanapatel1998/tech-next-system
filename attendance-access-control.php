@@ -45,7 +45,7 @@ ob_start();
                             unauthorized persons into the premises. Authentication methods include face detection,
                             fingerprint, palm detection, RFID cards, and mobile apps.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -75,7 +75,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Attendance & Access Control Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ ob_start();
                                 and selfie verification.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Accurate Attendance Tracking &amp; Secure Premise Access
                             </a>
 

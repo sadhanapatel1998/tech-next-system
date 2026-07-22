@@ -45,7 +45,7 @@ ob_start();
                             Our centralized computing solutions reduce IT costs, simplify management, improve
                             security, and deliver efficient performance for modern workplaces.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -75,7 +75,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Desktop / Laptops / Thin Client System">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ ob_start();
                                 productivity.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Smart, Secure & Cost-Effective Computing Solution for Every Organization
                             </a>
 

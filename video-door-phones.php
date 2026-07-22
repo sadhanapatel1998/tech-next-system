@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             A Video Door Phone is a standalone intercom system used to manage calls at building entrances, with access controlled through audiovisual communication between inside and outside. IP-based video door phones use the IP/SIP protocol, connecting through standard WAN or WiFi interfaces without extra wiring, and can transmit signals to a smartphone from anywhere in the world.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="IP / Analogue Video Door Phone Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Video door phones let you manage calls at your building's entrance with audiovisual communication controlled between inside and outside. IP-based systems use standard SIP protocol, connecting via WAN port or WiFi without the need for extra internal wiring.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 See, Speak &amp; Secure Your Entrance from Anywhere
                             </a>
 

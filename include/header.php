@@ -6,7 +6,7 @@
 				<div class="topbar-left">
 					<span class="item">
 						<i class="fas fa-phone"></i>
-						<a href="tel:+919818439612" class="text-white">+91-9818439612</a> 
+						<a href="tel:+919818439612" class="text-white">+91-9818439612</a>
 						<a href="tel:+918860027997" class="text-white d-xxl-block d-none">/ +91-8860027997</a>
 					</span>
 
@@ -52,7 +52,7 @@
 						<li><a href="index.php">Home</a></li>
 						<li><a href="about.php">About Us</a></li>
 						<li class="dropdown">
-							<a href="#">Products</a>
+							<a href="javascript:void(0)">Products</a>
 							<ul class="mega-sub-menu">
 								<li class="mega-menu">
 									<div class="mega-site-menu">
@@ -116,7 +116,9 @@
 						<span></span>
 					</button>
 					<!-- Mobile Nav toggler -->
-					<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+					<div class="mobile-nav-toggler">
+						<span><i class="fa-solid fa-bars"></i></span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -176,8 +178,6 @@
 		</nav>
 	</div><!-- End Mobile Menu -->
 
-
-
 	<!-- Sticky Header  -->
 	<div class="sticky-header">
 		<div class="auto-container">
@@ -195,7 +195,7 @@
 						</div>
 					</nav>
 
-					<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
+					<div class="mobile-nav-toggler"><span><i class="fa-solid fa-bars"></i></span></div>
 				</div>
 			</div>
 		</div>

@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             A Handheld or Door Frame Metal Detector (DFMD) detects metal objects such as jewellery, guns, and other arms hidden on a person passing through, commonly known as a 'walk-through' detector. Door Frame Temperature Detectors use military-grade infrared technology to screen body temperature of people passing through, making them ideal for malls, business centres, and public buildings.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Handheld &amp; Door Frame Metal / Temperature Detectors">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Handheld and Door Frame Metal Detectors identify metal objects such as jewellery, guns and other arms hidden on a person passing through, commonly known as walk-through detectors. Door Frame Temperature Detectors use military-grade infrared technology to screen body temperature non-intrusively as people pass through.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Fast, Reliable Security Screening for Every Entry Point
                             </a>
 

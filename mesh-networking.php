@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Tech Next Systems designs and deploys robust wired and wireless mesh networking solutions for businesses, campuses, and residential complexes. Our networking solutions ensure seamless connectivity, eliminate dead zones, and provide reliable, high-speed data transmission across your entire premises.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Wired / Wireless Mesh Networking Solutions">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Mesh networking uses multiple interconnected access points to blanket your premises with a strong, unified Wi-Fi signal instead of relying on a single router. This eliminates weak zones and ensures every corner of your building enjoys stable connectivity, ideal for large offices, hotels and multi-storey buildings.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Reliable, Seamless &amp; Scalable Connectivity for Every Space
                             </a>
 

@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Tech Next Systems offers RetroFit and Touch Panel Home Automation solutions along with Motorized Curtains. RetroFit automation modules fit behind existing switch boards without altering electrical wiring, converting switches for manual or mobile app control, while Touch Panels replace manual switch boards entirely for a modern smart-home interface.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Home Automation / Motorized Curtain Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 RetroFit Automation modules fit behind existing switch boards without altering electrical wiring or interior décor, converting standard switches into app-controllable two-way switches. Touch Panel Automation replaces manual switch boards entirely, while Motorized Curtains let you control curtains via smartphone, remote control, or voice command.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Smarter Living with Effortless Home Control
                             </a>
 

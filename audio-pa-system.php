@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             A Public Address (PA) System is an electronic sound amplification and distribution system comprising a microphone, amplifier, and loudspeakers, used to address large audiences. Commonly deployed at airports, rail terminals, and public venues, it delivers clear announcements and supports music playback through a mixer.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Audio / PA (Public Address) Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 A Public Address System combines a microphone, amplifier, and loudspeakers to deliver clear sound amplification for large audiences, commonly used at busy transit terminals for announcements. Music can also be played through the system by routing audio through the mixer's channels.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Clear, Powerful Sound for Every Announcement &amp; Occasion
                             </a>
 

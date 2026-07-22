@@ -1,3 +1,5 @@
+<?php include('seo.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +8,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Technet IT Solution HTML5 Template</title>
+	<title><?= $pageMeta['title']; ?></title>
+	<meta name="description" content="<?= $pageMeta['description']; ?>">
+	<meta name="keywords" content="<?= $pageMeta['keywords']; ?>">
+	<meta name="robots" content="<?= $pageMeta['robots']; ?>">
+	<link rel="canonical" href="<?= $pageMeta['canonical']; ?>">
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -61,6 +67,23 @@
 		<?php require_once("include/header.php"); ?>
 		<?= $content ?? ''; ?>
 		<?php require_once('include/footer.php') ?>
+
+		<!-- Floating icon -->
+		<div class="floating-contact">
+			<a href="tel:+919818439612" class="floating-btn call-btn">
+				<span class="floating-text">
+					Call Us
+				</span>
+				<i class="fa-solid fa-phone-volume"></i>
+			</a>
+
+			<a href="https://wa.me/919818439612" target="_blank" class="floating-btn whatsapp-btn">
+				<span class="floating-text">
+					WhatsApp
+				</span>
+				<i class="fa-brands fa-whatsapp"></i>
+			</a>
+		</div>
 
 		<!-- Scroll To Top -->
 		<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
@@ -153,6 +176,27 @@
 					removalDelay: 300,
 					mainClass: 'mfp-fade'
 				});
+			});
+		</script>
+		<script>
+			document.getElementById("whatsappForm").addEventListener("submit", function (e) {
+				e.preventDefault();
+				var name = document.querySelector('[name="name"]').value.trim();
+				var phone = document.querySelector('[name="phone"]').value.trim();
+				var email = document.querySelector('[name="email"]').value.trim();
+				var subject = document.querySelector('[name="subject"]').value.trim();
+				var message = document.querySelector('[name="message"]').value.trim();
+				var whatsappNumber = "916388049868"; // Without +
+				var text =
+					`*New Enquiry - TechNext Systems*
+                *Name:* ${name}
+                *Phone:* ${phone}
+                *Email:* ${email}
+                *Subject:* ${subject}
+                *Message:*
+                ${message}`;
+				var url = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(text);
+				window.open(url, "_blank");
 			});
 		</script>
 	</div>

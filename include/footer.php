@@ -86,29 +86,17 @@
 
 					<!-- Contact -->
 					<div class="col-xl-3 col-lg-4 col-md-6">
-
 						<div class="footer-widget-content pe-0">
-
 							<h2 class="footer-title">Contact Us</h2>
-
 							<div class="footer-content">
-
 								<ul class="contact-info">
-
 									<li class="d-flex align-items-start mb-3">
 										<i class="fa-solid fa-location-dot me-3 mt-1"></i>
-
 										<div>
 											<span class="d-block fw-bold text-white">Office Address</span>
-
-											<a href="https://maps.google.com/?q=205,Vardhman+Fortune+Mall,Opp.+Mahendru+Enclave,GT+Karnal+Road,Delhi+110033"
+											<a href="https://maps.app.goo.gl/VA6o27yxhHVyoW718"
 												target="_blank">
-
-												205, Vardhman Fortune Mall,<br>
-												Opp. Mahendru Enclave,<br>
-												G.T. Karnal Road,<br>
-												Delhi - 110033
-
+												Vardhman Fortune Mall, 205, GT Karnal Rd, Dilkhush Bagh Village, Ashok Vihar, Delhi, 110033
 											</a>
 										</div>
 									</li>
@@ -117,8 +105,8 @@
 										<i class="fa-solid fa-phone-volume me-3"></i>
 
 										<div>
-											<a href="tel:+919818439612">+91 98184 39612</a><br>
-											<a href="tel:+918860027997">+91 88600 27997</a>
+											<a href="tel:+919818439612">+91-9818439612</a><br>
+											<a href="tel:+918860027997">+91-8860027997</a>
 										</div>
 									</li>
 
@@ -130,16 +118,10 @@
 											<a href="mailto:info@technextsystems.com">info@technextsystems.com</a>
 										</div>
 									</li>
-
-
 								</ul>
-
 							</div>
-
 						</div>
-
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -147,49 +129,17 @@
 		<!-- Footer Bottom -->
 		<div class="footer-bottom">
 			<div class="auto-container">
-
 				<div class="row align-items-center">
-
-					<div class="col-lg-6">
-
-						<div class="copyright-text">
-							© 2026 TechNext Systems. All Rights Reserved.
+					<div class="col-lg-12">
+						<div class="copyright-text text-center">
+							&copy; <?= date("Y"); ?> TechNext Systems. All Rights Reserved. |
+							Managed by
+							<a href="https://hoverbusinessservices.com/" target="_blank">
+								Hover Business Services LLP
+							</a>
 						</div>
-
 					</div>
-
-					<div class="col-lg-6">
-
-						<div class="footer-bottom-menu">
-
-							<ul>
-
-								<li>
-									<a href="privacy-policy.php">
-										Privacy Policy
-									</a>
-								</li>
-
-								<li>
-									<a href="terms-conditions.php">
-										Terms & Conditions
-									</a>
-								</li>
-
-								<li>
-									<a href="contact.php">
-										Support
-									</a>
-								</li>
-
-							</ul>
-
-						</div>
-
-					</div>
-
 				</div>
-
 			</div>
 		</div>
 

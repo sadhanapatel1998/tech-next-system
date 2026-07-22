@@ -46,7 +46,7 @@ include('include/data.php');
 
         <div class="row">
             <?php foreach ($gallery as $item) { ?>
-                <div class="col-lg-3 col-md-3 mb-4">
+                <div class="col-lg-3 col-md-3 col-6 mb-4">
                     <a href="<?= $item['image']; ?>" class="gallery-item" title="<?= $item['title']; ?>">
                         <img src="<?= $item['image']; ?>" alt="<?= $item['title']; ?>">
                         <div class="gallery-overlay">

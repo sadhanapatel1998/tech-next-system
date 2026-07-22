@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Tech Next Systems provides comprehensive video surveillance solutions using IP, Analog and Wireless cameras integrated with DVR/NVR systems. Our surveillance solutions help businesses, residential complexes, and public institutions monitor their premises round the clock with reliable recording and remote viewing capabilities.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="IP / Analog / Wireless Camera &amp; DVR-NVR Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Our camera systems combine high-resolution IP and analog cameras with dependable DVR/NVR recording units to capture clear footage day and night. Whether wired or wireless, our cameras are engineered for durability and easy remote access from anywhere.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Complete Surveillance Coverage for Total Peace of Mind
                             </a>
 

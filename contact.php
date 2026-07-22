@@ -84,8 +84,7 @@ ob_start();
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <h3>Office Address</h3>
-                    <a href="#">
-                        205, VardhmanFortune Mall,
+                    <a href="#"> 205, VardhmanFortune Mall,
                         Opp. MahendruEnclave,
                         G.T. Karnal Road, Delhi – 110033.
                     </a>
@@ -111,11 +110,11 @@ ob_start();
                         <h1 class="title title-anim">Need Help? We’re Here</h1>
                     </div>
                 </div>
-                <form action="https://formspree.io/f/myyleorq" method="POST">
+                <form id="whatsappForm">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
                             <div class="form-box">
-                                <input type="text" name="Name" placeholder="Your Name" required="">
+                                <input type="text" name="name" placeholder="Your Name" required="">
                                 <i class="fa-regular fa-circle-user"></i>
                             </div>
                         </div>
@@ -133,15 +132,8 @@ ob_start();
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="form-box">
-                                <div class="option-box">
-                                    <select class="wide">
-                                        <option value="saab">Select Subject</option>
-                                        <option value="paris">English</option>
-                                        <option value="rome">Computer</option>
-                                        <option value="tokyo">Mathmatic</option>
-                                        <option value="new_york">Scienc</option>
-                                    </select>
-                                </div>
+                                <input type="text" name="subject" placeholder="Enter Subject">
+                                <i class="fa-solid fa-tag"></i>
                             </div>
                         </div>
                         <div class="col-lg-12 col-md-12">
@@ -155,7 +147,6 @@ ob_start();
                         </div>
                     </div>
                 </form>
-                <div id="status"></div>
             </div>
         </div>
         <div class="col-xl-6">

@@ -42,7 +42,7 @@ ob_start();
                         <p class="desc">
                             Intrusion and Anti-Theft Alarm Systems protect valuable property and business premises like shops, factories and godowns from theft, using sensors such as motion, door contact, vibration, shutter and glass break detectors, combined with fire and smoke detection to provide complete premise safety.
                         </p>
-                        <div class="project-details-area pt-0">
+                        <div class="project-details-area py-0">
                             <div class="project-details-content">
                                 <div class="project-details-list-item">
                                     <h4>Key Benefits</h4>
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Intrusion / Anti-Theft &amp; Fire Alarm Systems">
-                                    Enquiry Now
+                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
                                 </a>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ ob_start();
                                 Intrusion and anti-theft alarm systems protect valuable property using sensors such as motion, door contact, vibration, shutter, and glass break detectors. Once activated via remote control or mobile app, any intrusion triggers an alarm and notifies the owner instantly through call and SMS on multiple mobile phones.
                             </p>
 
-                            <a class="project-details-text" href="#">
+                            <a class="project-details-text" href="javascript:void(0)">
                                 Round-the-Clock Protection for Your Property &amp; People
                             </a>
 

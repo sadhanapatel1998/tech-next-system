@@ -2767,7 +2767,7 @@ Sticky Header
   top: -10px;
   text-align: center;
   font-size: 18px;
-  color: var(--theme-color3);
+ color: #e3e2e2;
   cursor: pointer;
   z-index: 10;
   transition: all 0.5s ease;
@@ -6928,8 +6928,8 @@ Section Title
   height: 16px;
   width: 1px;
   background-color: var(--theme-color-white);
-  left: 166px;
-  top: 24px;
+  left: 159px;
+  top: 21px;
 }
 
 .about-section-home2 .about-item-box .about-info-box .about-btn a i {
@@ -8257,8 +8257,8 @@ Section Title
 .why-choose-section-one .why-choose-box .single-choose-box .choose-icon {
   display: inline-block;
   width: 70px;
-  height: 70px;
-  line-height: 70px;
+  /* height: 70px; */
+  line-height: 76px;
   background: var(--theme-color2);
   border-radius: 50%;
   text-align: center;
@@ -13773,6 +13773,11 @@ Section Title
   background: var(--theme-color-white);
 }
 
+.brand-area-one .band-active .brand-box img {
+  border: 1px solid #04335f1a;
+  border-radius: 12px;
+}
+
 .brand-area-classic {
   padding: 80px 0;
   background: var(--theme-bg-color1);
@@ -17597,6 +17602,9 @@ Section Title
 }
 
 @media (min-width: 1200px) and (max-width: 1299.98px) {
+  .breadcumb-area {
+    padding: 90px 0 90px !important;
+}
   .main-header .logo img {
     max-width: 265px;
   }
@@ -18306,6 +18314,14 @@ section.feature-section.style__new {
 .contact-section-home3 .contact-bg.classic {
   margin-top: -230px;
   top: -200px;
+}
+
+.contact-section-home3 .contact-bg .contact-form-box p{
+  max-width: 450px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 20px 0px;
 }
 
 .contact-section-home3 .contact-bg .contact-form-box {
@@ -19790,7 +19806,7 @@ section.feature-section.style__new {
 }
 
 .project-details-area {
-  padding: 80px 0 10px;
+  padding: 80px 0 80px;
   /*sidber contact*/
 }
 
@@ -19896,7 +19912,7 @@ section.feature-section.style__new {
   background-repeat: no-repeat;
   background-position: center left;
   background-size: cover;
-  border-radius: 5px;
+    border-radius: 22px;
   padding: 48px 43px 48px;
 }
 
@@ -19938,7 +19954,7 @@ section.feature-section.style__new {
   font-weight: 400;
   text-decoration: none;
   background: var(--theme-color2);
-  padding: 16px 98px 15px;
+  padding: 16px 70px 15px;
   border-radius: 40px;
   margin-top: 55px;
   transition: 0.5s;
@@ -21818,8 +21834,8 @@ section.feature-section.style__new {
   }
 
   .tech-faq .accordion-button {
-    padding: 18px;
-    font-size: 16px;
+    padding: 0px 18px;
+    font-size: 18px;
   }
 
   .tech-faq .accordion-body {
@@ -21900,7 +21916,7 @@ section.feature-section.style__new {
   .why-choose-section-one .choose-icon {
     width: 65px;
     height: 65px;
-    min-width: 65px;
+    /* min-width: 65px; */
   }
 
   .why-choose-section-one .choose-icon i {
@@ -22389,4 +22405,285 @@ section.feature-section.style__new {
   font-weight: 600;
   display: block;
   margin-bottom: 5px;
+}
+
+.project-pagination {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.project-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #0A2B5C;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 0 7px !important;
+  transition: all .35s ease;
+}
+
+.project-pagination .swiper-pagination-bullet:hover {
+  background: #0A2B5C;
+}
+
+.project-pagination .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 20px;
+  background: #0A2B5C;
+}
+
+.project-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.project-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #0A2B5C;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 0 7px !important;
+  transition: all .35s ease;
+}
+
+.project-pagination .swiper-pagination-bullet:hover {
+  background: #0A2B5C;
+}
+
+.project-pagination .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 20px;
+  background: #0A2B5C;
+}
+
+.industry-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.industry-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #0A2B5C;
+  background: transparent;
+  border-radius: 50%;
+  opacity: 1;
+  margin: 0 6px !important;
+  transition: all .35s ease;
+}
+
+.industry-pagination .swiper-pagination-bullet-active {
+  width: 22px;
+  border-radius: 20px;
+  background: #0A2B5C;
+}
+
+/* ===========================
+   Testimonial Swiper
+=========================== */
+
+.testi-home3-classic-active {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 65px;
+}
+
+/* Pagination Container */
+
+/* Pagination */
+.testimonial-pagination {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50% !important;
+  width: auto !important;
+  transform: translateX(-50%) !important;
+
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+/* Bullet */
+
+.testimonial-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+
+  margin: 0 6px !important;
+
+  border: 2px solid #ffffff;
+  background: transparent;
+
+  border-radius: 50%;
+
+  opacity: 1;
+
+  transition: all .35s ease;
+}
+
+/* Hover */
+
+.testimonial-pagination .swiper-pagination-bullet:hover {
+  background: #ffffff;
+}
+
+/* Active */
+
+.testimonial-pagination .swiper-pagination-bullet-active {
+  width: 22px;
+  height: 10px;
+
+  border-radius: 30px;
+
+  background: #ffffff;
+
+  transform: scale(1.05);
+}
+
+/* Mobile */
+
+@media (max-width:767px) {
+
+  .testi-home3-classic-active {
+    padding-bottom: 55px;
+  }
+}
+
+.team-details-area .about-item-box .about-info-box .about-btn a::before {
+  left: 147px !important;
+  top: 21px !important;
+}
+/* ==========================
+   Floating Contact Buttons
+========================== */
+
+.floating-contact{
+    position:fixed;
+    left:25px;
+    bottom:25px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    z-index:99999;
+}
+
+/* Button */
+
+.floating-btn{
+    position:relative;
+    width:62px;
+    height:62px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    text-decoration:none;
+    font-size:24px;
+    transition:.35s ease;
+    overflow:hidden;
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+/* Hover */
+.floating-btn:hover{
+    transform:translateY(-5px) scale(1.05);
+}
+
+/* Call */
+.call-btn{
+    background:linear-gradient(135deg,#0A2B5C,#1565C0);
+}
+
+/* WhatsApp */
+.whatsapp-btn{
+    background:linear-gradient(135deg,#00C853,#25D366);
+}
+
+/* Label */
+.floating-text{
+    position:absolute;
+    right:78px;
+    white-space:nowrap;
+    background:#111;
+    color:#fff;
+    padding:10px 16px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    opacity:0;
+    visibility:hidden;
+    transform:translateX(20px);
+    transition:.35s;
+}
+
+.floating-text::after{
+    content:"";
+    position:absolute;
+    right:-7px;
+    top:50%;
+    transform:translateY(-50%);
+    border-left:8px solid #111;
+    border-top:8px solid transparent;
+    border-bottom:8px solid transparent;
+}
+
+.floating-btn:hover .floating-text{
+    opacity:1;
+    visibility:visible;
+    transform:translateX(0);
+}
+
+/* Pulse Animation */
+.call-btn::before,
+.whatsapp-btn::before{
+    content:"";
+    position:absolute;
+    inset:-4px;
+    border-radius:50%;
+    animation:pulseRing 2s infinite;
+}
+
+.call-btn::before{
+    border:2px solid rgba(21,101,192,.4);
+}
+
+.whatsapp-btn::before{
+    border:2px solid rgba(37,211,102,.4);
+}
+
+@keyframes pulseRing{
+    0%{
+        transform:scale(1);
+        opacity:1;
+    }
+    100%{
+        transform:scale(1.5);
+        opacity:0;
+    }
+}
+
+/* Mobile */
+@media(max-width:767px){
+    .floating-contact{
+        right:15px;
+        bottom:15px;
+        gap:12px;
+    }
+    .floating-btn{
+        width:55px;
+        height:55px;
+
+        font-size:22px;
+    }
+    .floating-text{
+        display:none;
+    }
 }
