@@ -2965,7 +2965,7 @@ Sticky Header
   justify-content: space-between;
   background: var(--bg-theme-color1);
   width: 100%;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgb(255 255 255 / 58%);
   margin-top: auto;
 }
 
@@ -2973,7 +2973,7 @@ Sticky Header
   position: relative;
   text-align: center;
   width: 100%;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgb(255 255 255);
 }
 
 .mobile-menu .social-links li a {
@@ -2983,7 +2983,7 @@ Sticky Header
   height: 50px;
   font-size: 14px;
   text-align: center;
-  color: var(--theme-color3);
+      color: #c8c5c5;
   transition: all 300ms ease;
 }
 
@@ -13770,12 +13770,13 @@ Section Title
   width: 100%;
   border-radius: 16px;
   text-align: center;
-  background: var(--theme-color-white);
+  
 }
 
 .brand-area-one .band-active .brand-box img {
   border: 1px solid #04335f1a;
   border-radius: 12px;
+  background: var(--theme-color-white);
 }
 
 .brand-area-classic {
@@ -22596,6 +22597,9 @@ section.feature-section.style__new {
 .floating-btn:hover{
     transform:translateY(-5px) scale(1.05);
 }
+.floating-btn:hover i{ 
+  color: #fff;
+}
 
 /* Call */
 .call-btn{
@@ -22686,4 +22690,15 @@ section.feature-section.style__new {
     .floating-text{
         display:none;
     }
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number]{
+    -moz-appearance: textfield;
+    appearance: textfield;
 }

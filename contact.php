@@ -120,7 +120,8 @@ ob_start();
                         </div>
                         <div class="col-lg-6 col-md-6">
                             <div class="form-box">
-                                <input type="text" name="phone" placeholder="Phone No.">
+                                <input type="tel" name="phone" placeholder="Phone No." pattern="[0-9]{10}"
+                                    maxlength="10" required>
                                 <i class="fa-solid fa-circle-phone"></i>
                             </div>
                         </div>

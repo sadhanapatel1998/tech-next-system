@@ -96,12 +96,13 @@
 					<p>Fill your details and we'll contact you shortly.</p>
 				</div>
 				<div class="popup-body">
-					<form action="send-enquiry.php" method="POST">
+					<form id="whatsappForm">
 						<input type="text" name="name" placeholder="Your Name" required>
-						<input type="tel" name="phone" placeholder="Mobile Number" required>
+						<input type="tel" name="phone" placeholder="Phone No." pattern="[0-9]{10}" maxlength="10"
+							required>
 						<input type="email" name="email" placeholder="Email Address">
-						<input type="text" id="popupSubject" name="subject" readonly>
-						<textarea name="message" placeholder="Write your requirement..."></textarea>
+						<input type="text" id="popupSubject" name="subject" readonly required>
+						<textarea name="message" placeholder="Write your requirement..." ></textarea>
 						<button type="submit">Submit Enquiry</button>
 					</form>
 				</div>
@@ -186,15 +187,15 @@
 				var email = document.querySelector('[name="email"]').value.trim();
 				var subject = document.querySelector('[name="subject"]').value.trim();
 				var message = document.querySelector('[name="message"]').value.trim();
-				var whatsappNumber = "916388049868"; // Without +
+				var whatsappNumber = "919818439612 "; 
 				var text =
-					`*New Enquiry - TechNext Systems*
-                *Name:* ${name}
-                *Phone:* ${phone}
-                *Email:* ${email}
-                *Subject:* ${subject}
-                *Message:*
-                ${message}`;
+				`*New Enquiry - TechNext Systems*
+				*Name:* ${name}
+				*Phone:* ${phone}
+				*Email:* ${email}
+				*Subject:* ${subject}
+				*Message:*
+				${message}`;
 				var url = "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(text);
 				window.open(url, "_blank");
 			});

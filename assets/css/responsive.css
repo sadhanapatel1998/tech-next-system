@@ -1491,6 +1491,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .breadcumb-area .breadcumb-content .breadcumb-title h4 {
+        font-size: 30px;
+        line-height: 33px;
+        margin-left: 19px;
+        margin-bottom: 10px;
+    }
 	.contact-list-one li .contact-info-box {
 		padding-left: 0px;
 	}
@@ -1617,7 +1623,7 @@
 	}
 
 	.mission-vission-section-home3-classic {
-		padding: 90px 0 50px;
+		padding: 60px 0 50px;
 	}
 
 	.mission-vission-section-home3-classic .mission-vission-list {

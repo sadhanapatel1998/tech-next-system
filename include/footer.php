@@ -25,7 +25,7 @@
 								industrial projects.
 							</div>
 
-							<ul class="footer-social">
+							<!-- <ul class="footer-social">
 								<li>
 									<a href="#" target="_blank">
 										<i class="fa-brands fa-facebook-f"></i>
@@ -46,7 +46,7 @@
 										<i class="fa-brands fa-x-twitter"></i>
 									</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 

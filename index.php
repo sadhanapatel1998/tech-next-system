@@ -647,32 +647,33 @@ include('include/data.php');
 			<div class="col-lg-7">
 				<div class="donation-form">
 					<h2 class="form-title">Let's Secure Your Business Together</h2>
-					<form action="https://formspree.io/f/myyleorq" method="POST">
+					<form id="whatsappForm">
 						<div class="row">
 							<div class="col-lg-6 col-md-6">
 								<div class="form-box">
-									<input type="text" name="Name" placeholder="Your Name" required="">
+									<input type="text" name="name" placeholder="Your Name" required="">
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6">
 								<div class="form-box">
-									<input type="email" name="email" placeholder="Enter E-Mail">
+									<input type="email" name="email" placeholder="Enter E-Mail" required="">
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6">
 								<div class="form-box">
-									<input type="text" name="phone" placeholder="Phone No.">
+									<input type="tel" name="phone" placeholder="Phone No." pattern="[0-9]{10}"
+										maxlength="10" required>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6">
 								<div class="form-box">
-									<input type="date" id="birthday" name="birthday">
+									<input type="text" name="subject" placeholder="Subject." required="">
 								</div>
 							</div>
 							<div class="col-lg-12 col-md-12">
 								<div class="form-box message">
 									<textarea name="message" id="message" cols="30" rows="10"
-										placeholder="Write Message..."></textarea>
+										placeholder="Write Message..." required=""></textarea>
 								</div>
 							</div>
 							<div class="contact-form">
@@ -891,8 +892,7 @@ include('include/data.php');
 								</div>
 								<div class="call-content">
 									<h2 class="call-text">Call Us (Toll free)</h2>
-									<h3 class="call-number"><a href="tel:+919818439612"
-											>+91-9818439612</a></h3>
+									<h3 class="call-number"><a href="tel:+919818439612">+91-9818439612</a></h3>
 								</div>
 							</div>
 						</div>

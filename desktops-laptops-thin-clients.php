@@ -9,11 +9,11 @@ ob_start();
             <div class="col-lg-12 ">
                 <div class="breadcumb-content">
                     <div class="breadcumb-title">
-                        <h4>Contact Us</h4>
+                        <h4>Desktop / Laptops / Thin Client System</h4>
                     </div>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li>Contact Us</li>
+                        <li>Desktop / Laptops / Thin Client System</li>
                     </ul>
                 </div>
             </div>

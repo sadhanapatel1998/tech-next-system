@@ -17,14 +17,14 @@
 				</div>
 			</div>
 
-			<div class="col-lg-6">
+			<!-- <div class="col-lg-6">
 				<div class="topbar-right">
 					<a href="#"><i class="fab fa-facebook-f"></i></a>
 					<a href="#"><i class="fab fa-x-twitter"></i></a>
 					<a href="#"><i class="fab fa-instagram"></i></a>
 					<a href="#"><i class="fab fa-pinterest-p"></i></a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<div class="toper-sp">
@@ -169,12 +169,12 @@
 			</ul>
 
 
-			<ul class="social-links">
+			<!-- <ul class="social-links">
 				<li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
 				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 				<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
 				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			</ul>
+			</ul> -->
 		</nav>
 	</div><!-- End Mobile Menu -->
 
