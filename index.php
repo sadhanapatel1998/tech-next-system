@@ -168,7 +168,7 @@ include('include/data.php');
 <!--About Section End-->
 
 <!--Features Section-->
-<section class="feature-section-home3-classic pt-0 pb-80">
+<section class="feature-section-home3-classic pt-0">
 	<div class="auto-container">
 		<div class="row">
 			<!-- Feature -->

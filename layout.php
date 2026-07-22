@@ -65,43 +65,24 @@
 		<!-- Scroll To Top -->
 		<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
 
-
 		<div class="popup-overlay" id="popupOverlay">
-
 			<div class="popup-box">
-
 				<span class="popup-close" id="closePopup">&times;</span>
-
 				<div class="popup-header">
-
 					<h3>Quick Enquiry</h3>
-
 					<p>Fill your details and we'll contact you shortly.</p>
-
 				</div>
-
 				<div class="popup-body">
-
 					<form action="send-enquiry.php" method="POST">
-
 						<input type="text" name="name" placeholder="Your Name" required>
-
 						<input type="tel" name="phone" placeholder="Mobile Number" required>
-
 						<input type="email" name="email" placeholder="Email Address">
-
 						<input type="text" id="popupSubject" name="subject" readonly>
-
 						<textarea name="message" placeholder="Write your requirement..."></textarea>
-
 						<button type="submit">Submit Enquiry</button>
-
 					</form>
-
 				</div>
-
 			</div>
-
 		</div>
 
 		<script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -122,63 +103,56 @@
 		<script src="assets/js/main.js"></script>
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
-
 				const popup = document.getElementById("popupOverlay");
 				const subject = document.getElementById("popupSubject");
 				const closeBtn = document.getElementById("closePopup");
 
 				// Open popup
 				document.querySelectorAll(".enquiryBtn").forEach(function (btn) {
-
 					btn.addEventListener("click", function (e) {
-
 						e.preventDefault();
-
 						subject.value = this.getAttribute("data-subject");
-
 						popup.style.display = "flex";
-
 						document.body.style.overflow = "hidden";
-
 					});
-
 				});
-
 				// Close by X
 				closeBtn.addEventListener("click", function () {
-
 					popup.style.display = "none";
-
 					document.body.style.overflow = "auto";
-
 				});
-
 				// Close by clicking outside
 				popup.addEventListener("click", function (e) {
-
 					if (e.target === popup) {
-
 						popup.style.display = "none";
-
 						document.body.style.overflow = "auto";
-
 					}
-
 				});
-
 				// Close by ESC key
 				document.addEventListener("keydown", function (e) {
-
 					if (e.key === "Escape") {
-
 						popup.style.display = "none";
-
 						document.body.style.overflow = "auto";
-
 					}
-
 				});
-
+			});
+		</script>
+		<script>
+			$(document).ready(function () {
+				$('.gallery-section').magnificPopup({
+					delegate: 'a',
+					type: 'image',
+					gallery: {
+						enabled: true,
+						navigateByImgClick: true,
+						preload: [0, 1]
+					},
+					image: {
+						titleSrc: 'title'
+					},
+					removalDelay: 300,
+					mainClass: 'mfp-fade'
+				});
 			});
 		</script>
 	</div>
