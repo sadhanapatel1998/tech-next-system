@@ -1,5 +1,4 @@
 <?php include('seo.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
