@@ -16,19 +16,7 @@
 					</span>
 				</div>
 			</div>
-
-			<!-- <div class="col-lg-6">
-				<div class="topbar-right">
-					<a href="#"><i class="fab fa-facebook-f"></i></a>
-					<a href="#"><i class="fab fa-x-twitter"></i></a>
-					<a href="#"><i class="fab fa-instagram"></i></a>
-					<a href="#"><i class="fab fa-pinterest-p"></i></a>
-				</div>
-			</div> -->
 		</div>
-	</div>
-	<div class="toper-sp">
-		<img src="assets/images/home2-classic/topber-line.png" alt="">
 	</div>
 </div>
 

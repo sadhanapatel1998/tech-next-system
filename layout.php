@@ -1,4 +1,5 @@
 <?php include('seo.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +13,9 @@
 	<meta name="keywords" content="<?= $pageMeta['keywords']; ?>">
 	<meta name="robots" content="<?= $pageMeta['robots']; ?>">
 	<link rel="canonical" href="<?= $pageMeta['canonical']; ?>">
+	
+	<!-- Allow Search Engines to Index -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">

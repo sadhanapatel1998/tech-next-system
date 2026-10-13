@@ -425,9 +425,6 @@ include('include/data.php');
 					<div class="mission-vission-thumb3">
 						<figure class="reveal"><img src="assets/images/about/wc-3.png" alt="thumb3"></figure>
 					</div>
-					<div class="mission-dot-shape">
-						<img src="assets/images/home3/mission-dot.png" alt="dot">
-					</div>
 				</div>
 			</div>
 		</div>
