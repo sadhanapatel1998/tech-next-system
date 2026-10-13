@@ -29,7 +29,7 @@ ob_start();
                 <div class="sec-title text-center">
                     <div class="section-sub-title">
                         <h1 class="sub-title">
-                            <img src="assets/images/main-home/sub-title-icon.png" alt="">
+                            <img src="assets/images/main-home/sub-title-icon.png" alt="Section title icon">
                             Contact Us
                         </h1>
                     </div>
@@ -84,7 +84,7 @@ ob_start();
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <h3>Office Address</h3>
-                    <a href="#"> 205, VardhmanFortune Mall,
+                    <a href="https://maps.app.goo.gl/dMC4RUtyTgMAJxDB6" target="_blank" rel="noopener noreferrer"> 205, VardhmanFortune Mall,
                         Opp. MahendruEnclave,
                         G.T. Karnal Road, Delhi – 110033.
                     </a>
@@ -122,7 +122,7 @@ ob_start();
                             <div class="form-box">
                                 <input type="tel" name="phone" placeholder="Phone No." pattern="[0-9]{10}"
                                     maxlength="10" required>
-                                <i class="fa-solid fa-circle-phone"></i>
+                                <i class="fa-solid fa-phone"></i>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
@@ -144,7 +144,7 @@ ob_start();
                             </div>
                         </div>
                         <div class="contact-form">
-                            <button type="submit">Send Message<i class="fa-solid fa-arrow-right"></i></button>
+                            <button type="submit">Send Message<i class="bi bi-arrow-right"></i></button>
                         </div>
                     </div>
                 </form>
@@ -152,11 +152,9 @@ ob_start();
         </div>
         <div class="col-xl-6">
             <div class="contact-thumb">
-                <figure class="reveal bg-gray">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.5993173095603!2d77.181991!3d28.7016302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03fe743b83d7%3A0xc3ab8de8b2cdb68d!2sTECHNEXT%20SYSTEMS!5e0!3m2!1sen!2sin!4v1784535565168!5m2!1sen!2sin"
-                        class="w-100" allowfullscreen="" loading="lazy"
-                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                <figure class="reveal bg-gray w-100">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.5993173095603!2d77.181991!3d28.7016302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03fe743b83d7%3A0xc3ab8de8b2cdb68d!2sTECHNEXT%20SYSTEMS!5e0!3m2!1sen!2sin!4v1791873790233!5m2!1sen!2sin" 
+                        class="w-100" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </figure>
             </div>
         </div>
@@ -178,7 +176,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client1.png" alt="client img">
+                                    <img src="assets/images/client/client1.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -187,7 +185,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client2.png" alt="client img">
+                                    <img src="assets/images/client/client2.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -196,7 +194,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client3.png" alt="client img">
+                                    <img src="assets/images/client/client3.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -205,7 +203,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client4.png" alt="client img">
+                                    <img src="assets/images/client/client4.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -214,7 +212,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client5.png" alt="client img">
+                                    <img src="assets/images/client/client5.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -223,7 +221,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client6.png" alt="client img">
+                                    <img src="assets/images/client/client6.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -232,7 +230,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client7.png" alt="client img">
+                                    <img src="assets/images/client/client7.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>
@@ -241,7 +239,7 @@ ob_start();
                         <div class="col-lg-12">
                             <div class="brand-box">
                                 <div class="brand-thumb">
-                                    <img src="assets/images/client/client8.png" alt="client img">
+                                    <img src="assets/images/client/client8.png" alt="TechNext Systems client logo">
                                 </div>
                             </div>
                         </div>

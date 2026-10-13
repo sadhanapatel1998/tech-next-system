@@ -28,7 +28,7 @@ ob_start();
         <div class="row">
             <div class="col-lg-6">
                 <div class="team-thumb">
-                    <img src="assets/images/products/audio-pa-system.jpg" alt="Product Image">
+                    <img src="assets/images/products/audio-pa-system.jpg" alt="Audio Pa System image">
                 </div>
             </div>
             <div class="col-lg-6 about-item-box">
@@ -36,7 +36,7 @@ ob_start();
                     <div class="team-details-content">
 
                         <div class="team-member-title">
-                            <h2>Audio / PA (Public Address) Systems</h2>
+                            <h1>Audio / PA (Public Address) Systems</h2>
                         </div>
 
                         <p class="desc">
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Audio / PA (Public Address) Systems">
-                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
+                                   Enquiry Now  <i class="bi bi-arrow-right"></i> 
                                 </a>
                             </div>
                         </div>

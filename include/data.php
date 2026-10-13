@@ -44,7 +44,7 @@ $services = [
     [
         "title" => "IP / Analogue Video Door Phone",
         "image" => "assets/images/services/video-door-phones.jpg",
-        "link" => ".php"
+        "link" => "video-door-phones.php"
     ],
     [
         "title" => "Electronic Wardrobe Locks",

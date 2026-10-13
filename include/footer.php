@@ -27,22 +27,22 @@
 
 							<!-- <ul class="footer-social">
 								<li>
-									<a href="#" target="_blank">
+									<a href="#" target="_blank" rel="noopener noreferrer">
 										<i class="fa-brands fa-facebook-f"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
+									<a href="#" target="_blank" rel="noopener noreferrer">
 										<i class="fa-brands fa-instagram"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
+									<a href="#" target="_blank" rel="noopener noreferrer">
 										<i class="fa-brands fa-linkedin-in"></i>
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank">
+									<a href="#" target="_blank" rel="noopener noreferrer">
 										<i class="fa-brands fa-x-twitter"></i>
 									</a>
 								</li>
@@ -55,11 +55,11 @@
 						<div class="footer-widget-content">
 							<h2 class="footer-title">Quick Links</h2>
 							<ul class="footer-menu">
-								<li><a href="index.php">Home <i class="fa-solid fa-arrow-right-long"></i></a></li>
-								<li><a href="about.php">About Us <i class="fa-solid fa-arrow-right-long"></i></a></li>
-								<li><a href="gallery.php">Gallery <i class="fa-solid fa-arrow-right-long"></i></a></li>
-								<li><a href="blog.php">Blog <i class="fa-solid fa-arrow-right-long"></i></a></li>
-								<li><a href="contact.php">Contact Us <i class="fa-solid fa-arrow-right-long"></i></a>
+								<li><a href="index.php">Home <i class="bi bi-arrow-right"></i></a></li>
+								<li><a href="about.php">About Us <i class="bi bi-arrow-right"></i></a></li>
+								<li><a href="gallery.php">Gallery <i class="bi bi-arrow-right"></i></a></li>
+								<li><a href="blog.php">Blog <i class="bi bi-arrow-right"></i></a></li>
+								<li><a href="contact.php">Contact Us <i class="bi bi-arrow-right"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -71,15 +71,15 @@
 							<h2 class="footer-title">Our Services</h2>
 							<ul class="footer-menu">
 								<li><a href="cctv-cameras.php">CCTV Surveillance <i
-											class="fa-solid fa-arrow-right-long"></i></a></li>
+											class="bi bi-arrow-right"></i></a></li>
 								<li><a href="attendance-access-control.php">Access Control <i
-											class="fa-solid fa-arrow-right-long"></i></a></li>
+											class="bi bi-arrow-right"></i></a></li>
 								<li><a href="mesh-networking.php">Networking Solutions <i
-											class="fa-solid fa-arrow-right-long"></i></a></li>
+											class="bi bi-arrow-right"></i></a></li>
 								<li><a href="home-automation.php">Home Automation <i
-											class="fa-solid fa-arrow-right-long"></i></a></li>
+											class="bi bi-arrow-right"></i></a></li>
 								<li><a href="digital-signage.php">Digital Signage <i
-											class="fa-solid fa-arrow-right-long"></i></a></li>
+											class="bi bi-arrow-right"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -94,8 +94,7 @@
 										<i class="fa-solid fa-location-dot me-3 mt-1"></i>
 										<div>
 											<span class="d-block fw-bold text-white">Office Address</span>
-											<a href="https://maps.app.goo.gl/VA6o27yxhHVyoW718"
-												target="_blank">
+											<a href="https://maps.app.goo.gl/VA6o27yxhHVyoW718" target="_blank" rel="noopener noreferrer">
 												Vardhman Fortune Mall, 205, GT Karnal Rd, Dilkhush Bagh Village, Ashok Vihar, Delhi, 110033
 											</a>
 										</div>
@@ -134,7 +133,7 @@
 						<div class="copyright-text text-center">
 							&copy; <?= date("Y"); ?> TechNext Systems. All Rights Reserved. |
 							Managed by
-							<a href="https://hoverbusinessservices.com/" target="_blank">
+							<a href="https://hoverbusinessservices.com/" target="_blank" rel="noopener noreferrer">
 								Hover Business Services LLP
 							</a>
 						</div>

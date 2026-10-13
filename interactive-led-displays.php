@@ -28,7 +28,7 @@ ob_start();
         <div class="row">
             <div class="col-lg-6">
                 <div class="team-thumb">
-                    <img src="assets/images/products/interactive-led-displays.jpg" alt="Product Image">
+                    <img src="assets/images/products/interactive-led-displays.jpg" alt="Interactive Led Displays image">
                 </div>
             </div>
             <div class="col-lg-6 about-item-box">
@@ -36,7 +36,7 @@ ob_start();
                     <div class="team-details-content">
 
                         <div class="team-member-title">
-                            <h2>Interactive Display Panels &amp; LED Wall Systems</h2>
+                            <h1>Interactive Display Panels &amp; LED Wall Systems</h1>
                         </div>
 
                         <p class="desc">
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Interactive Display Panels &amp; LED Wall Systems">
-                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
+                                   Enquiry Now  <i class="bi bi-arrow-right"></i> 
                                 </a>
                             </div>
                         </div>

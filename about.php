@@ -31,7 +31,7 @@ ob_start();
                 <div class="sec-title">
                     <div class="section-sub-title">
                         <h5 class="sub-title">
-                            <img src="assets/images/main-home/sub-title-icon.png" alt="">
+                            <img src="assets/images/main-home/sub-title-icon.png" alt="Section title icon">
                             About Tech Next System
                         </h5>
                     </div>
@@ -177,7 +177,7 @@ ob_start();
             <div class="col-lg-5">
                 <div class="why-choose-wrapper">
                     <div class="why-choose-thumb">
-                        <figure class="reveal"><img src="assets/images/about/about-two.jpg" alt="thumb">
+                        <figure class="reveal"><img src="assets/images/about/about-two.jpg" alt="TechNext Systems security solutions">
                         </figure>
                     </div>
                 </div>
@@ -270,7 +270,7 @@ ob_start();
                     <div class="about-btn">
                         <a href="contact.php">
                             Contact Us <span style="visibility: hidden;">Us</span>
-                            <i class="fa-solid fa-arrow-right"></i>
+                            <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>

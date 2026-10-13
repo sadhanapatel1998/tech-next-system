@@ -48,7 +48,7 @@ include('include/data.php');
             <?php foreach ($gallery as $item) { ?>
                 <div class="col-lg-3 col-md-3 col-6 mb-4">
                     <a href="<?= $item['image']; ?>" class="gallery-item" title="<?= $item['title']; ?>">
-                        <img src="<?= $item['image']; ?>" alt="<?= $item['title']; ?>">
+                        <img src="<?= $item['image']; ?>" alt="<?= htmlspecialchars($item['title'] ?? $item['name'] ?? 'Gallery image'); ?>">
                         <div class="gallery-overlay">
                             <i class="fa-solid fa-plus"></i>
                         </div>

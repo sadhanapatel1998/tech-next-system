@@ -62,13 +62,28 @@
       $("body").removeClass("mobile-menu-visible");
     });
 
-    // Dropdown Button (Delegated)
+    // Dropdown Button & Link Toggle (Delegated)
     $(document).on(
       "click",
       ".mobile-menu li.dropdown .dropdown-btn",
-      function () {
-        $(this).prev("ul").slideToggle(500);
+      function (e) {
+        e.preventDefault();
+        $(this).prev("ul").slideToggle(400);
         $(this).toggleClass("active");
+      },
+    );
+
+    $(document).on(
+      "click",
+      ".mobile-menu li.dropdown > a",
+      function (e) {
+        var href = $(this).attr("href");
+        if (!href || href === "#" || href.indexOf("javascript") === 0) {
+          e.preventDefault();
+          var $parent = $(this).parent("li.dropdown");
+          $parent.children("ul").slideToggle(400);
+          $parent.children(".dropdown-btn").toggleClass("active");
+        }
       },
     );
 

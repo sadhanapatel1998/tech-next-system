@@ -13,10 +13,6 @@
     --dark-gradient-2: linear-gradient(180deg, rgba(12, 35, 24, 0) 60%, #0C2318 100%);
 
 }
-
-.feature-section-home3::before {
-    background-image: url(../images/home3/mission-bg-shape.png);
-}
 .donate-love-section-home3::before {
     position: absolute;
     z-index: -1;
@@ -25,7 +21,7 @@
     height: 120px;
     left: 0;
     top: 130px;
-    background-image: url(../images/home3/mission-bg-shape.png);
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -33,7 +29,7 @@
 
 
 .banner-section-one {
-    background-image: url(../images/main-home/banner-dark-bg.png);
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -149,16 +145,8 @@ header.main-header.header-home2-renewable .main-menu .navigation>li>a {
     background: var(--dark-color2);
 }
 
-.project-section-one {
-    background-image: url(../images/main-home/blog-dark.png);
-}
-
 .team-section-one {
     background: var(--dark-color2);
-}
-
-.latest-blog-section-one {
-    background-image: url(../images/main-home/blog-dark-bg.png);
 }
 
 .testimonial-section-one::before {
@@ -265,7 +253,7 @@ header.main-header.header-home2-renewable .main-menu .navigation>li>a {
 }
 
 .banner-section-home2 {
-    background-image: url(../images/home2-dark/banner2.png);
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -318,10 +306,6 @@ header.main-header.header-home2-renewable .main-menu .navigation>li>a {
 
 .why-choose-section-home2 .choose-box .choose-title h4 {
     color: var(--dark-color3);
-}
-
-.work-process-section-home2 {
-    background-image: url(../images/home2-dark/process-bg.png);
 }
 
 .work-process-section-home2 .working-process-box .process-content h4 {
@@ -383,7 +367,7 @@ header.main-header.header-home2-renewable .main-menu .navigation>li>a {
 }
 
 .service-section-home2-classic {
-    background: url(../images/home2-classic/dark-bg.png);
+    
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -502,7 +486,7 @@ header.main-header.header-home2-renewable .main-menu .navigation>li>a {
     height: 120px;
     left: 0;
     bottom: -83px;
-    background-image: url(../images/home3/mission-bg-shape.png);
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -621,10 +605,6 @@ input#birthday {
 
 .latest-blog-section-home3 .blog-single-box .blog-content .blog-btn a {
     color: var(--dark-color3);
-}
-
-.contact-section-home3 .contact-bg {
-    background-image: url(../images/home3/contact-dark.png);
 }
 
 .contact-section-home3 .contact-bg .contact-form-box .contact-info-box .contact-call-info .call-number {
@@ -760,7 +740,7 @@ input#birthday {
 }
 
 .feature-section-home3 .single-feature-box {
-    background-image: url(../images/home3/feature-box-dark.png);
+    
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

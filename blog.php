@@ -45,7 +45,7 @@ ob_start();
             <div class="col-xl-4 col-lg-6">
                 <div class="single-blog-box">
                     <div class="blog-thumb reveal">
-                        <img src="assets/images/blog/blog-1.jpg" alt="thumb">
+                        <img src="assets/images/blog/blog-1.jpg" alt="Blog 1 blog image">
                     </div>
                     <div class="blog-content">
                         <h2 class="blog-title">How Modern CCTV
@@ -60,7 +60,7 @@ ob_start();
             <div class="col-xl-4 col-lg-6">
                 <div class="single-blog-box">
                     <div class="blog-thumb reveal">
-                        <img src="assets/images/blog/blog-2.jpg" alt="thumb">
+                        <img src="assets/images/blog/blog-2.jpg" alt="Blog 2 blog image">
                     </div>
                     <div class="blog-content">
                         <h2 class="blog-title">Access Control
@@ -75,7 +75,7 @@ ob_start();
             <div class="col-xl-4 col-lg-6">
                 <div class="single-blog-box">
                     <div class="blog-thumb reveal">
-                        <img src="assets/images/blog/blog-3.jpg" alt="thumb">
+                        <img src="assets/images/blog/blog-3.jpg" alt="Blog 3 blog image">
                     </div>
                     <div class="blog-content">
                         <h2 class="blog-title">Fire Alarm Systems:

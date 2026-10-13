@@ -28,7 +28,7 @@ ob_start();
         <div class="row">
             <div class="col-lg-6">
                 <div class="team-thumb">
-                    <img src="assets/images/products/cctv-cameras.jpg" alt=">IP / Analog / Wireless Camera Image and DVR-NVR Systems">
+                    <img src="assets/images/products/cctv-cameras.jpg" alt=" alt="Cctv Cameras image">IP / Analog / Wireless Camera Image and DVR-NVR Systems">
                 </div>
             </div>
             <div class="col-lg-6 about-item-box">
@@ -36,7 +36,7 @@ ob_start();
                     <div class="team-details-content">
 
                         <div class="team-member-title">
-                            <h2>IP / Analog / Wireless Camera &amp; DVR-NVR Systems</h2>
+                            <h1>IP / Analog / Wireless Camera &amp; DVR-NVR Systems</h1>
                         </div>
 
                         <p class="desc">
@@ -64,7 +64,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="IP / Analog / Wireless Camera &amp; DVR-NVR Systems">
-                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
+                                   Enquiry Now  <i class="bi bi-arrow-right"></i> 
                                 </a>
                             </div>
                         </div>

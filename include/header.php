@@ -28,7 +28,7 @@
 		<!-- Main box -->
 		<div class="main-box">
 			<div class="logo-box">
-				<div class="logo"><a href="index.php"><img src="assets/images/logo/logo.png" alt=""
+				<div class="logo"><a href="index.php"><img src="assets/images/logo/logo.png" alt="TechNext Systems logo"
 							title="technext"></a>
 				</div>
 			</div>
@@ -96,7 +96,7 @@
 				<div class="outer-box">
 					<div class="menu-btn">
 						<a href="contact.php" class="theme-btn btn-style-one"><span class="btn-title">Get a
-								Quote <i class="fa-solid fa-arrow-right"></i></span></a>
+								Quote <i class="bi bi-arrow-right"></i></span></a>
 					</div>
 					<button class="menubars" type="button" data-bs-toggle="offcanvas" data-bs-target="#menubar">
 						<span></span>
@@ -225,7 +225,7 @@
 			<ul>
 				<li>
 
-					<a href="https://maps.app.goo.gl/c1dJNPL1Srr9qPvAA" target="_blank">
+					<a href="https://maps.app.goo.gl/c1dJNPL1Srr9qPvAA" target="_blank" rel="noopener noreferrer">
 						<i class="fa-solid fa-location-dot"></i>
 						205, Vardhman Fortune Mall,
 						Opp. Mahendru Enclave,
@@ -271,22 +271,22 @@
 		<!-- <div class="sidebar__socials">
 			<ul>
 				<li>
-					<a href="https://www.facebook.com/" target="_blank">
+					<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
 						<i class="fab fa-facebook-f"></i>
 					</a>
 				</li>
 				<li>
-					<a href="https://www.instagram.com/" target="_blank">
+					<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
 						<i class="fab fa-instagram"></i>
 					</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/" target="_blank">
+					<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
 						<i class="fab fa-linkedin-in"></i>
 					</a>
 				</li>
 				<li>
-					<a href="https://x.com/" target="_blank">
+					<a href="https://x.com/" target="_blank" rel="noopener noreferrer">
 						<i class="fab fa-x-twitter"></i>
 					</a>
 				</li>

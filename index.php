@@ -8,17 +8,17 @@ include('include/data.php');
 	<div class="swiper-wrapper">
 		<div class="swiper-slide">
 			<div class="banner-section-home3-classic p-0">
-				<img src="assets/images/banner/banner-one.png" alt="Banner">
+				<img src="assets/images/banner/banner-one.webp" alt="TechNext Systems security solutions banner">
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="banner-section-home3-classic two p-0">
-				<img src="assets/images/banner/banner-02.png" alt="Banner">
+				<img src="assets/images/banner/banner-02.webp" alt="TechNext Systems technology solutions banner">
 			</div>
 		</div>
 		<div class="swiper-slide">
 			<div class="banner-section-home3-classic three p-0">
-				<img src="assets/images/banner/banner-three.png" alt="Banner">
+				<img src="assets/images/banner/banner-three.webp" alt="TechNext Systems smart security and automation banner">
 			</div>
 		</div>
 	</div>
@@ -27,7 +27,7 @@ include('include/data.php');
 			<i class="fa-solid fa-arrow-left-long"></i>
 		</button>
 		<button class="slider-next" tabindex="0" aria-label="Next slide">
-			<i class="fa-solid fa-arrow-right-long"></i>
+			<i class="bi bi-arrow-right"></i>
 		</button>
 	</div>
 </div>
@@ -42,7 +42,7 @@ include('include/data.php');
 				<div class="sec-title">
 					<div class="section-sub-title">
 						<h5 class="sub-title">
-							<img src="assets/images/main-home/sub-title-icon.png" alt="">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="Section title icon">
 							About Tech Next System
 						</h5>
 					</div>
@@ -148,7 +148,7 @@ include('include/data.php');
 						<div class="about-btn">
 							<a href="about.php">
 								Discover More
-								<i class="fa-solid fa-arrow-right"></i>
+								<i class="bi bi-arrow-right"></i>
 							</a>
 						</div>
 						<div class="about-call-info">
@@ -156,7 +156,7 @@ include('include/data.php');
 								Need Expert Advice?
 							</h3>
 							<h4 class="call-number">
-								<a href="tel:919818439612">+91 98184 39612 </a>
+								<a href="tel:919818439612">+91 98184 39612</a>
 							</h4>
 						</div>
 					</div>
@@ -257,7 +257,7 @@ include('include/data.php');
 				<div class="sec-title text-center">
 					<div class="section-sub-title">
 						<h1 class="sub-title">
-							<img src="assets/images/main-home/sub-title-icon.png" alt="">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="Section title icon">
 							Our Solutions
 						</h1>
 					</div>
@@ -283,7 +283,7 @@ include('include/data.php');
 									<div class="project-thumb">
 
 										<figure class="reveal">
-											<img src="<?= $service['image']; ?>" alt="<?= $service['title']; ?>">
+											<img src="<?= $service['image']; ?>" alt="<?= htmlspecialchars($service['title']); ?>">
 										</figure>
 
 										<div class="project-content">
@@ -417,13 +417,13 @@ include('include/data.php');
 			<div class="col-xl-6 col-lg-12">
 				<div class="mission-vission-thumb-wrapper">
 					<div class="mission-vission-thumb1">
-						<figure class="reveal"><img src="assets/images/about/wc-2.png" alt="thumb1"></figure>
+						<figure class="reveal"><img src="assets/images/about/wc-2.png" alt="Security and technology solutions"></figure>
 					</div>
 					<div class="mission-vission-thumb2">
-						<figure class="reveal"><img src="assets/images/about/wc-1.png" alt="thumb2"></figure>
+						<figure class="reveal"><img src="assets/images/about/wc-1.png" alt="Business technology solutions"></figure>
 					</div>
 					<div class="mission-vission-thumb3">
-						<figure class="reveal"><img src="assets/images/about/wc-3.png" alt="thumb3"></figure>
+						<figure class="reveal"><img src="assets/images/about/wc-3.png" alt="Integrated security solutions"></figure>
 					</div>
 				</div>
 			</div>
@@ -441,7 +441,7 @@ include('include/data.php');
 					<div class="sec-title text-center">
 						<div class="section-sub-title">
 							<h1 class="sub-title">
-								<img src="assets/images/main-home/sub-title-icon.png" alt="">
+								<img src="assets/images/main-home/sub-title-icon.png" alt="Section title icon">
 								Our Process
 							</h1>
 						</div>
@@ -458,7 +458,7 @@ include('include/data.php');
 			<div class="col-lg-3 col-md-6">
 				<div class="working-process-box first before-transprent after-transprent fade-in">
 					<div class="process-icon">
-						<img src="assets/images/process/1.png" alt="">
+						<img src="assets/images/process/1.png" alt="Site assessment process icon">
 					</div>
 					<div class="process-content">
 						<h2>Site Assessment</h2>
@@ -472,7 +472,7 @@ include('include/data.php');
 			<div class="col-lg-3 col-md-6">
 				<div class="working-process-box after-transprent fade-in">
 					<div class="process-icon">
-						<img src="assets/images/process/2.png" alt="">
+						<img src="assets/images/process/2.png" alt="Solution design process icon">
 					</div>
 					<div class="process-content">
 						<h2>Solution Design</h2>
@@ -486,7 +486,7 @@ include('include/data.php');
 			<div class="col-lg-3 col-md-6">
 				<div class="working-process-box first before-transprent fade-in">
 					<div class="process-icon">
-						<img src="assets/images/process/3.png" alt="">
+						<img src="assets/images/process/3.png" alt="Installation and testing process icon">
 					</div>
 					<div class="process-content">
 						<h2>Installation & Testing</h2>
@@ -500,7 +500,7 @@ include('include/data.php');
 			<div class="col-lg-3 col-md-6">
 				<div class="working-process-box before-transprent fade-in">
 					<div class="process-icon">
-						<img src="assets/images/process/4.png" alt="">
+						<img src="assets/images/process/4.png" alt="Technical support process icon">
 					</div>
 					<div class="process-content">
 						<h2>Technical Support</h2>
@@ -566,7 +566,7 @@ include('include/data.php');
 				<div class="sec-title text-center">
 					<div class="section-sub-title ">
 						<h1 class="sub-title">
-							<img src="assets/images/main-home/sub-title-icon.png" alt="">
+							<img src="assets/images/main-home/sub-title-icon.png" alt="Section title icon">
 							Industries We Serve
 						</h1>
 					</div>
@@ -587,7 +587,7 @@ include('include/data.php');
 							<div class="project-box">
 								<div class="project-thumb">
 									<figure class="reveal">
-										<img src="<?= $industry['image']; ?>" alt="<?= $industry['title']; ?>">
+										<img src="<?= $industry['image']; ?>" alt="<?= htmlspecialchars($industry['title']); ?>">
 									</figure>
 								</div>
 
@@ -610,9 +610,6 @@ include('include/data.php');
 	</div>
 	<div class="project-shape1">
 		<img src="assets/images/home2/project-arrow.png" alt="arrow">
-	</div>
-	<div class="project-shape2">
-		<img src="assets/images/home2/project-dot.png" alt="dot">
 	</div>
 </section>
 <!-- Industries section-->
@@ -637,7 +634,7 @@ include('include/data.php');
 		<div class="row g-0 donation-form-bg">
 			<div class="col-lg-5">
 				<div class="donation-form-thumb">
-					<figure class="reveal"><img src="assets/images/about/cta-left.jpg" alt="img">
+					<figure class="reveal"><img src="assets/images/about/cta-left.jpg" alt="TechNext Systems consultation">
 					</figure>
 				</div>
 			</div>
@@ -674,7 +671,7 @@ include('include/data.php');
 								</div>
 							</div>
 							<div class="contact-form">
-								<button type="submit">Send Message<i class="fa-solid fa-arrow-right"></i></button>
+								<button type="submit">Send Message<i class="bi bi-arrow-right"></i></button>
 							</div>
 						</div>
 					</form>
@@ -714,7 +711,7 @@ include('include/data.php');
 					<div class="about-btn">
 						<a href="contact.php">
 							Contact Us <span style="visibility: hidden;">Us</span>
-							<i class="fa-solid fa-arrow-right"></i>
+							<i class="bi bi-arrow-right"></i>
 						</a>
 					</div>
 				</div>
@@ -832,7 +829,7 @@ include('include/data.php');
 							<div class="single-testi-box" data-cursor-text="View">
 								<div class="testi-autor-box">
 									<div class="testi-autor">
-										<img src="<?= $item['image']; ?>" alt="<?= $item['name']; ?>">
+										<img src="<?= $item['image']; ?>" alt="<?= htmlspecialchars($item['title'] ?? $item['name'] ?? 'Gallery image'); ?>">
 									</div>
 									<div class="testi-autor-content">
 										<h2 class="autor-title"><?= $item['name']; ?></h2>
@@ -881,7 +878,7 @@ include('include/data.php');
 						</div>
 						<div class="contact-info-box">
 							<div class="contact-btn">
-								<a href="contact.php">Contact Us Now<i class="fa-solid fa-arrow-right"></i></a>
+								<a href="contact.php">Contact Us Now<i class="bi bi-arrow-right"></i></a>
 							</div>
 							<div class="contact-call-info">
 								<div class="call-icon">
@@ -924,7 +921,7 @@ include('include/data.php');
 			<div class="col-xl-4 col-lg-6">
 				<div class="single-blog-box">
 					<div class="blog-thumb reveal">
-						<img src="assets/images/blog/blog-1.jpg" alt="thumb">
+						<img src="assets/images/blog/blog-1.jpg" alt="Blog 1 blog image">
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
@@ -939,7 +936,7 @@ include('include/data.php');
 			<div class="col-xl-4 col-lg-6">
 				<div class="single-blog-box">
 					<div class="blog-thumb reveal">
-						<img src="assets/images/blog/blog-2.jpg" alt="thumb">
+						<img src="assets/images/blog/blog-2.jpg" alt="Blog 2 blog image">
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
@@ -954,7 +951,7 @@ include('include/data.php');
 			<div class="col-xl-4 col-lg-6">
 				<div class="single-blog-box">
 					<div class="blog-thumb reveal">
-						<img src="assets/images/blog/blog-3.jpg" alt="thumb">
+						<img src="assets/images/blog/blog-3.jpg" alt="Blog 3 blog image">
 					</div>
 					<div class="blog-content">
 						<div class="blog-meta">
@@ -998,7 +995,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client1.png" alt="client img">
+									<img src="assets/images/client/client1.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1007,7 +1004,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client2.png" alt="client img">
+									<img src="assets/images/client/client2.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1016,7 +1013,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client3.png" alt="client img">
+									<img src="assets/images/client/client3.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1025,7 +1022,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client4.png" alt="client img">
+									<img src="assets/images/client/client4.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1034,7 +1031,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client5.png" alt="client img">
+									<img src="assets/images/client/client5.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1043,7 +1040,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client6.png" alt="client img">
+									<img src="assets/images/client/client6.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1052,7 +1049,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client7.png" alt="client img">
+									<img src="assets/images/client/client7.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>
@@ -1061,7 +1058,7 @@ include('include/data.php');
 						<div class="col-lg-12">
 							<div class="brand-box">
 								<div class="brand-thumb">
-									<img src="assets/images/client/client8.png" alt="client img">
+									<img src="assets/images/client/client8.png" alt="TechNext Systems client logo">
 								</div>
 							</div>
 						</div>

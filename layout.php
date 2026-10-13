@@ -7,20 +7,29 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><?= htmlspecialchars($pageMeta['title'], ENT_QUOTES, 'UTF-8'); ?></title>
+	<meta name="description"
+		content="<?= htmlspecialchars($pageMeta['description'], ENT_QUOTES, 'UTF-8'); ?>">
+	<?php if (!empty($pageMeta['keywords'])): ?>
+		<meta name="keywords"
+			content="<?= htmlspecialchars($pageMeta['keywords'], ENT_QUOTES, 'UTF-8'); ?>">
+	<?php endif; ?>
+	<meta name="robots"
+		content="<?= htmlspecialchars($pageMeta['robots'], ENT_QUOTES, 'UTF-8'); ?>">
+	<?php if (!empty($pageMeta['canonical'])): ?>
+		<link rel="canonical"
+			href="<?= htmlspecialchars($pageMeta['canonical'], ENT_QUOTES, 'UTF-8'); ?>">
+	<?php endif; ?>
 
-	<title><?= $pageMeta['title']; ?></title>
-	<meta name="description" content="<?= $pageMeta['description']; ?>">
-	<meta name="keywords" content="<?= $pageMeta['keywords']; ?>">
-	<meta name="robots" content="<?= $pageMeta['robots']; ?>">
-	<link rel="canonical" href="<?= $pageMeta['canonical']; ?>">
-	
-	<!-- Allow Search Engines to Index -->
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-	<!-- Favicon -->
+	<!-- Favicon & App Icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+
+	<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	<link rel="shortcut icon" href="assets/favicon/favicon.ico">
 	<link rel="manifest" href="assets/favicon/site.webmanifest">
 
 	<!-- Core CSS -->
@@ -34,14 +43,12 @@
 
 	<!-- Icons -->
 	<link href="assets/css/fontawesome-free.css" rel="stylesheet">
-	<link href="assets/css/fontawesome-all.css" rel="stylesheet">
-	<link href="assets/css/fontawesome.css" rel="stylesheet">
 	<link href="assets/css/flaticon.css" rel="stylesheet">
 
 	<!-- Theme CSS -->
-	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/style.min.css?v=<?= filemtime(__DIR__ . '/assets/css/style.min.css'); ?>" rel="stylesheet">
 	<link href="assets/css/theme-default.css" rel="stylesheet">
-	<link href="assets/css/responsive.css" rel="stylesheet">
+	<link href="assets/css/responsive.css?v=<?= filemtime(__DIR__ . '/assets/css/responsive.css'); ?>" rel="stylesheet">
 
 	<!-- Utility -->
 	<link href="assets/css/tm-bs-mp.css" rel="stylesheet">
@@ -56,6 +63,8 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Outfit:wght@100..900&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -80,7 +89,7 @@
 				<i class="fa-solid fa-phone-volume"></i>
 			</a>
 
-			<a href="https://wa.me/919818439612" target="_blank" class="floating-btn whatsapp-btn">
+			<a href="https://wa.me/919818439612" target="_blank" rel="noopener noreferrer" class="floating-btn whatsapp-btn">
 				<span class="floating-text">
 					WhatsApp
 				</span>
@@ -99,13 +108,13 @@
 					<p>Fill your details and we'll contact you shortly.</p>
 				</div>
 				<div class="popup-body">
-					<form id="whatsappForm">
+					<form id="whatsappPopupForm">
 						<input type="text" name="name" placeholder="Your Name" required>
 						<input type="tel" name="phone" placeholder="Phone No." pattern="[0-9]{10}" maxlength="10"
 							required>
 						<input type="email" name="email" placeholder="Email Address">
 						<input type="text" id="popupSubject" name="subject" readonly required>
-						<textarea name="message" placeholder="Write your requirement..." ></textarea>
+						<textarea name="message" placeholder="Write your requirement..."></textarea>
 						<button type="submit">Submit Enquiry</button>
 					</form>
 				</div>
@@ -127,16 +136,16 @@
 		<script src="assets/js/ScrollTrigger.min.js"></script>
 		<script src="assets/js/SplitText.js"></script>
 		<script src="assets/js/cusor-text.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="assets/js/main.js?v=<?= filemtime(__DIR__ . '/assets/js/main.js'); ?>"></script>
 		<script>
-			document.addEventListener("DOMContentLoaded", function () {
+			document.addEventListener("DOMContentLoaded", function() {
 				const popup = document.getElementById("popupOverlay");
 				const subject = document.getElementById("popupSubject");
 				const closeBtn = document.getElementById("closePopup");
 
 				// Open popup
-				document.querySelectorAll(".enquiryBtn").forEach(function (btn) {
-					btn.addEventListener("click", function (e) {
+				document.querySelectorAll(".enquiryBtn").forEach(function(btn) {
+					btn.addEventListener("click", function(e) {
 						e.preventDefault();
 						subject.value = this.getAttribute("data-subject");
 						popup.style.display = "flex";
@@ -144,19 +153,19 @@
 					});
 				});
 				// Close by X
-				closeBtn.addEventListener("click", function () {
+				closeBtn.addEventListener("click", function() {
 					popup.style.display = "none";
 					document.body.style.overflow = "auto";
 				});
 				// Close by clicking outside
-				popup.addEventListener("click", function (e) {
+				popup.addEventListener("click", function(e) {
 					if (e.target === popup) {
 						popup.style.display = "none";
 						document.body.style.overflow = "auto";
 					}
 				});
 				// Close by ESC key
-				document.addEventListener("keydown", function (e) {
+				document.addEventListener("keydown", function(e) {
 					if (e.key === "Escape") {
 						popup.style.display = "none";
 						document.body.style.overflow = "auto";
@@ -165,7 +174,7 @@
 			});
 		</script>
 		<script>
-			$(document).ready(function () {
+			$(document).ready(function() {
 				$('.gallery-section').magnificPopup({
 					delegate: 'a',
 					type: 'image',
@@ -183,16 +192,16 @@
 			});
 		</script>
 		<script>
-			document.getElementById("whatsappForm").addEventListener("submit", function (e) {
+			document.getElementById("whatsappPopupForm").addEventListener("submit", function(e) {
 				e.preventDefault();
 				var name = document.querySelector('[name="name"]').value.trim();
 				var phone = document.querySelector('[name="phone"]').value.trim();
 				var email = document.querySelector('[name="email"]').value.trim();
 				var subject = document.querySelector('[name="subject"]').value.trim();
 				var message = document.querySelector('[name="message"]').value.trim();
-				var whatsappNumber = "919818439612 "; 
+				var whatsappNumber = "919818439612";
 				var text =
-				`*New Enquiry - TechNext Systems*
+					`*New Enquiry - TechNext Systems*
 				*Name:* ${name}
 				*Phone:* ${phone}
 				*Email:* ${email}

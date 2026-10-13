@@ -16,7 +16,7 @@
                 <a href="mailto:info@technextsystems.com" class="text-white">mailto: info@technextsystems.com</a>
             </span>
             <div class="widget-sidber-contact-btn">
-                <a href="contact.php">Contact Us<i class="fa-regular fa-arrow-right-long"></i></a>
+                <a href="contact.php">Contact Us<i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>

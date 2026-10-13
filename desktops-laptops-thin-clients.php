@@ -28,7 +28,7 @@ ob_start();
         <div class="row">
             <div class="col-lg-6">
                 <div class="team-thumb">
-                    <img src="assets/images/products/desktops-laptops-thin-clients.jpg" alt="Product Image">
+                    <img src="assets/images/products/desktops-laptops-thin-clients.jpg" alt="Desktops Laptops Thin Clients image">
                 </div>
             </div>
             <div class="col-lg-6 about-item-box">
@@ -36,7 +36,7 @@ ob_start();
                     <div class="team-details-content">
 
                         <div class="team-member-title">
-                            <h2>Desktop / Laptops / Thin Client System</h2>
+                            <h1>Desktop / Laptops / Thin Client System</h1>
                         </div>
 
                         <p class="desc">
@@ -75,7 +75,7 @@ ob_start();
                             <div class="about-btn">
                                 <a href="javascript:void(0)" class="enquiryBtn"
                                     data-subject="Desktop / Laptops / Thin Client System">
-                                   Enquiry Now  <i class="fa-regular fa-arrow-right-long"></i> 
+                                   Enquiry Now  <i class="bi bi-arrow-right"></i> 
                                 </a>
                             </div>
                         </div>
